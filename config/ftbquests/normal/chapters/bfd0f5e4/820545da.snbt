@@ -1,0 +1,30 @@
+{
+	title: "{quests.aet.beginning.climate}",
+	x: -4.0d,
+	y: -5.5d,
+	text: [
+		"{quests.aet.beginning.climate.desc}"
+	],
+	dependencies: [
+		"ce74cbc5"
+	],
+	tasks: [{
+		uid: "1dd42540",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ab511a2c",
+		type: "item",
+		item: "dcs_climate:dcs_hat_leather"
+	},
+	{
+		uid: "ce60cccc",
+		type: "item",
+		item: "dcs_climate:dcs_wear_wool"
+	},
+	{
+		uid: "79390d14",
+		type: "item",
+		item: "dcs_climate:dcs_shirt_linen"
+	}]
+}

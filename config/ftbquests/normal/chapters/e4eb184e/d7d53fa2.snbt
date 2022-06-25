@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.ore.redvein}",
+	icon: "dcs_climate:dcs_color 1 7",
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"{quests.aet.ore.redvein.desc}"
+	],
+	dependencies: [
+		"40290546"
+	],
+	tasks: [{
+		uid: "464b0fdf",
+		type: "checkmark"
+	}]
+}

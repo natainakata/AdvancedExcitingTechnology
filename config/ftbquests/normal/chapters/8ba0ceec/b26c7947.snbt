@@ -1,0 +1,20 @@
+{
+	title: "{quests.aet.t1.mortar}",
+	x: -14.5d,
+	y: -5.0d,
+	text: [
+		"{quests.aet.t1.mortar.desc}"
+	],
+	dependencies: [
+		"0d55d2a6"
+	],
+	tasks: [{
+		uid: "214f780b",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_yagen_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

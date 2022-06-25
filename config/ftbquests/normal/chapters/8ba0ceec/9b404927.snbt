@@ -1,0 +1,50 @@
+{
+	title: "{quests.aet.t1.gearbrass}",
+	x: -8.5d,
+	y: -5.0d,
+	text: [
+		"{quests.aet.t1.gearbrass.desc}"
+	],
+	dependencies: [
+		"33686924",
+		"36477254"
+	],
+	dependency_requirement: "one_completed",
+	or_tasks: true,
+	tasks: [{
+		uid: "e25d2ee6",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearBrass"
+				}
+			}
+		}]
+	},
+	{
+		uid: "fe733ac6",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearBronze"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearBronze"
+				}
+			}
+		}]
+	}]
+}

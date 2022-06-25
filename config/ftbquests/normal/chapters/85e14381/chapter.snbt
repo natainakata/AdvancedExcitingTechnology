@@ -1,0 +1,7 @@
+{
+	title: "{quests.aet.utils}",
+	icon: "minecraft:trapped_chest",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

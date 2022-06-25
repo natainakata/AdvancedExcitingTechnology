@@ -1,0 +1,77 @@
+{
+	title: "{quests.aet.tools.excavator}",
+	x: 7.0d,
+	y: 1.5d,
+	text: [
+		"{quests.aet.tools.excavator}"
+	],
+	dependencies: [
+		"8eef9bb5"
+	],
+	tasks: [{
+		uid: "e5e738c2",
+		type: "item",
+		title: "{quests.aet.tools.excavator.item}",
+		items: [{
+			id: "tconstruct:excavator",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"knightslime",
+						"knightslime",
+						"knightslime",
+						"knightslime"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Stats: {
+					Durability: 1729,
+					HarvestLevel: 3,
+					Attack: 5.1f,
+					MiningSpeed: 5.8f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 1729,
+					HarvestLevel: 3,
+					Attack: 5.1f,
+					MiningSpeed: 5.8f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				Modifiers: [{
+					identifier: "unnatural",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "crumbling",
+					color: -946192,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"unnatural",
+					"crumbling",
+					"toolleveling"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

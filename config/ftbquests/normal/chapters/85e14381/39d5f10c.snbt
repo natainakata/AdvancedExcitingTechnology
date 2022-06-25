@@ -1,0 +1,22 @@
+{
+	x: 5.5d,
+	y: -2.0d,
+	dependencies: [
+		"a3eecb2c"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "fe8eca56",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_lowchest_wood"
+		}]
+	},
+	{
+		uid: "f9833c5e",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_wallshelf_wood"
+		}]
+	}]
+}

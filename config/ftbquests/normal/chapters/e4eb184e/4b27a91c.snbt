@@ -1,0 +1,26 @@
+{
+	title: "{quests.aet.ore.redore}",
+	x: -8.5d,
+	y: -3.5d,
+	text: [
+		"{quests.aet.ore.redore.desc}"
+	],
+	dependencies: [
+		"d7d53fa2"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4ccc1044",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_stone_new"
+		}]
+	},
+	{
+		uid: "f39fd6ee",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_stone_new 1 5"
+		}]
+	}]
+}

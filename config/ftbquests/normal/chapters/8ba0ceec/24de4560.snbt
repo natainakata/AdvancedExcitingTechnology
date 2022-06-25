@@ -1,0 +1,19 @@
+{
+	title: "{quests.aet.t1.string}",
+	x: -17.0d,
+	y: -2.0d,
+	text: [
+		"{quests.aet.t1.string.desc}"
+	],
+	dependencies: [
+		"adbb8725"
+	],
+	tasks: [{
+		uid: "8d83ee72",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_misc"
+		}],
+		consume_items: false
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	icon: "minecraft:beacon",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d20aec06",
+		type: "checkmark",
+		title: "{quests.aet.utils.awesome}"
+	}]
+}

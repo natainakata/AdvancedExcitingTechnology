@@ -1,0 +1,74 @@
+{
+	title: "{quests.aet.t1.brass}",
+	x: -10.0d,
+	y: -4.0d,
+	text: [
+		"{quests.aet.t1.brass.desc}"
+	],
+	dependencies: [
+		"0714503f"
+	],
+	tasks: [{
+		uid: "119104f8",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustZinc"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustZinc"
+				}
+			}
+		}],
+		count: 3L
+	},
+	{
+		uid: "2bea4376",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustCopper"
+				}
+			}
+		}],
+		count: 6L
+	},
+	{
+		uid: "35d50c8d",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_dustblock 1 4"
+		}]
+	},
+	{
+		uid: "8f374e8c",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockBrass"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockBrass"
+				}
+			}
+		}]
+	}]
+}

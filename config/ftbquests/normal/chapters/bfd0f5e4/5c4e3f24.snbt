@@ -1,0 +1,31 @@
+{
+	title: "{quests.aet.beginning.base}",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"{quests.aet.beginning.base.desc}"
+	],
+	dependencies: [
+		"7a8e3831"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "10211961",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "8221230e",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "eaed8fe7",
+		type: "item",
+		item: "minecraft:bed 1 14"
+	}]
+}

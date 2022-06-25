@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.world.nether}",
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"{quests.aet.world.nether.desc}"
+	],
+	dependencies: [
+		"bfd0f5e4"
+	],
+	tasks: [{
+		uid: "6e31482c",
+		type: "dimension",
+		dim: -1
+	}]
+}

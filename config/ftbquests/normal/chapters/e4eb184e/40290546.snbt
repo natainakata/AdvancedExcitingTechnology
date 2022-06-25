@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.ore.generation}",
+	icon: "minecraft:stone",
+	x: -4.0d,
+	y: -2.5d,
+	text: [
+		"{quests.aet.ore.generation.desc}"
+	],
+	dependencies: [
+		"bfd0f5e4"
+	],
+	tasks: [{
+		uid: "adf20b12",
+		type: "checkmark"
+	}]
+}

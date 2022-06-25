@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.ore.blackmaterial}",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"{quests.aet.ore.blackmaterial.desc}"
+	],
+	dependencies: [
+		"3ed32a09"
+	],
+	tasks: [{
+		uid: "c33ea1b6",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_gem_layer 1 3"
+		}]
+	}]
+}

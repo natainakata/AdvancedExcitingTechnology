@@ -1,0 +1,26 @@
+{
+	title: "{quests.aet.world.slimeisland}",
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"{quests.aet.world.slimeisland.desc}"
+	],
+	dependencies: [
+		"5aba66aa"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "395f98a4",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling"
+		}]
+	},
+	{
+		uid: "cda29aad",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling 1 1"
+		}]
+	}]
+}

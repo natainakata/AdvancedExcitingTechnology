@@ -1,0 +1,58 @@
+{
+	title: "{quests.aet.tools.chalcedony}",
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"{quests.aet.tools.chalcedony.desc}"
+	],
+	dependencies: [
+		"76c10d77"
+	],
+	dependency_requirement: "all_started",
+	or_tasks: true,
+	tasks: [{
+		uid: "6f2fe272",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_axe_chalcedony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0fd927e9",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_pickaxe_chalcedony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ee101ec",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_spade_chalcedony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4d43e034",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_scythe_chalcedony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e39b5508",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_sword_chalcedony"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

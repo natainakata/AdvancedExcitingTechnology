@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.ore.blackvein}",
+	icon: "dcs_climate:dcs_color 1 8",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"{quests.aet.ore.blackvein.desc}"
+	],
+	dependencies: [
+		"40290546"
+	],
+	tasks: [{
+		uid: "e20cfd86",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "{quests.aet.tools.toolforge}",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"{quests.aet.tools.toolforge.desc}"
+	],
+	dependencies: [
+		"dc6e60b5"
+	],
+	tasks: [{
+		uid: "21fb0559",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "dcs_climate:dcs_ore_metal_alloy",
+					Count: 1b,
+					Damage: 2s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

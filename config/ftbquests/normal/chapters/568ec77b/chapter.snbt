@@ -1,0 +1,7 @@
+{
+	title: "{quests.aet.t3}",
+	icon: "dcs_climate:dcs_device_heat_exchanger",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

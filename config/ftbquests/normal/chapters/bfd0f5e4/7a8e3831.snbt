@@ -1,0 +1,37 @@
+{
+	title: "{quests.aet.beginning.tree}",
+	x: -7.0d,
+	y: -3.5d,
+	text: [
+		"{quests.aet.beginning.tree.desc}"
+	],
+	dependencies: [
+		"ce74cbc5"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "97ff6142",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "05ce7ce8",
+		type: "item",
+		item: "minecraft:apple",
+		count: 16
+	}]
+}

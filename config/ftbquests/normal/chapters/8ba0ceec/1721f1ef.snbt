@@ -1,0 +1,15 @@
+{
+	title: "{quests.aet.t1.torque}",
+	x: -8.5d,
+	y: -1.0d,
+	text: [
+		"{quests.aet.t1.torque.desc}"
+	],
+	dependencies: [
+		"a19e2121"
+	],
+	tasks: [{
+		uid: "b1732ec3",
+		type: "checkmark"
+	}]
+}

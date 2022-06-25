@@ -1,0 +1,10 @@
+{
+	title: "{quests.aet.world}",
+	icon: {
+		id: "naturescompass:naturescompass",
+		tag: {}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

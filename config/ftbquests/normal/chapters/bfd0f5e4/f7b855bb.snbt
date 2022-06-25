@@ -1,0 +1,25 @@
+{
+	title: "{quests.aet.beginning.charcoal}",
+	x: -1.5d,
+	y: -5.5d,
+	text: [
+		"{quests.aet.beginning.charcoal.desc}"
+	],
+	dependencies: [
+		"5c4e3f24",
+		"820545da"
+	],
+	tasks: [{
+		uid: "61174577",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_cont_log 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c881c343",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	}]
+}

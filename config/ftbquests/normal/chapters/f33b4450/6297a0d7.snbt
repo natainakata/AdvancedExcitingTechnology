@@ -1,0 +1,120 @@
+{
+	title: "{quests.aet.tools.sceptre}",
+	x: 10.0d,
+	y: 0.0d,
+	text: [
+		"{quests.aet.tools.sceptre.desc}"
+	],
+	dependencies: [
+		"8eef9bb5"
+	],
+	tasks: [{
+		uid: "944f563b",
+		type: "item",
+		title: "{quests.aet.tools.sceptre.item}",
+		items: [{
+			id: "tconevo:tool_sceptre",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wyvern_metal",
+						"wyvern_metal",
+						"wyvern_metal",
+						"wyvern_metal"
+					],
+					Modifiers: [
+						"tconevo.draconic_energy",
+						"tconevo.draconic_attack_damage",
+						"tconevo.draconic_attack_aoe",
+						"tconevo.draconic_draw_speed",
+						"tconevo.draconic_arrow_speed",
+						"toolleveling"
+					]
+				},
+				Stats: {
+					Durability: 4888,
+					HarvestLevel: 10,
+					Attack: 15.0f,
+					MiningSpeed: 6.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3,
+					DrawSpeed: 1.0f,
+					Range: 1.3f,
+					ProjectileBonusDamage: 0.0f
+				},
+				StatsOriginal: {
+					Durability: 4888,
+					HarvestLevel: 10,
+					Attack: 15.0f,
+					MiningSpeed: 6.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3,
+					DrawSpeed: 1.0f,
+					Range: 1.3f,
+					ProjectileBonusDamage: 0.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon",
+						"launcher"
+					]
+				},
+				Modifiers: [{
+					identifier: "tconevo.soul_rend",
+					color: -8892017,
+					level: 1
+				},
+				{
+					identifier: "tconevo.evolved",
+					color: -8892017,
+					level: 1
+				},
+				{
+					identifier: "tconevo.draconic_energy",
+					color: 43690,
+					level: 1
+				},
+				{
+					identifier: "tconevo.draconic_attack_damage",
+					color: 43690,
+					level: 1
+				},
+				{
+					identifier: "tconevo.draconic_attack_aoe",
+					color: 43690,
+					level: 1
+				},
+				{
+					identifier: "tconevo.draconic_draw_speed",
+					color: 43690,
+					level: 1
+				},
+				{
+					identifier: "tconevo.draconic_arrow_speed",
+					color: 43690,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.soul_rend1",
+					"tconevo.evolved",
+					"tconevo.draconic_energy",
+					"tconevo.draconic_attack_damage",
+					"tconevo.draconic_attack_aoe",
+					"tconevo.draconic_draw_speed",
+					"tconevo.draconic_arrow_speed",
+					"toolleveling"
+				],
+				Unbreakable: 1b,
+				EvolvedTier: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

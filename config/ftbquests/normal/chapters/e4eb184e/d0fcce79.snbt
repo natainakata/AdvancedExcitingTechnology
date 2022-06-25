@@ -1,0 +1,26 @@
+{
+	title: "{quests.aet.ore.greenore}",
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		"{quests.aet.ore.greenore.desc}"
+	],
+	dependencies: [
+		"a025ca54"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "1d91ca87",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_stone_new 1 1"
+		}]
+	},
+	{
+		uid: "c16fb2fa",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_stone_new 1 6"
+		}]
+	}]
+}

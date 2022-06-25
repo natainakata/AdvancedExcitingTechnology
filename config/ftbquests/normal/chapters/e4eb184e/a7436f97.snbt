@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.ore.whitevein}",
+	icon: "dcs_climate:dcs_color 1 9",
+	x: -4.0d,
+	y: -5.0d,
+	text: [
+		"{quests.aet.ore.whitevein.desc}"
+	],
+	dependencies: [
+		"40290546"
+	],
+	tasks: [{
+		uid: "47f740d3",
+		type: "checkmark"
+	}]
+}

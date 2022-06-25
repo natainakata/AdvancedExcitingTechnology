@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.ore.whitematerial}",
+	x: -5.5d,
+	y: -7.0d,
+	text: [
+		"{quests.aet.ore.whitematerial.desc}"
+	],
+	dependencies: [
+		"a7436f97"
+	],
+	tasks: [{
+		uid: "1532aad0",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_gem_layer 1 1"
+		}]
+	}]
+}

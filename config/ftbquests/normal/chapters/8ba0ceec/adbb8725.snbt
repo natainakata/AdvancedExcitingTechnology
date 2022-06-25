@@ -1,0 +1,20 @@
+{
+	title: "{quests.aet.t1.handspindle}",
+	x: -17.0d,
+	y: -3.5d,
+	text: [
+		"{quests.aet.t1.handspindle.desc}"
+	],
+	dependencies: [
+		"0d55d2a6"
+	],
+	tasks: [{
+		uid: "1d062ded",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_handspindle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

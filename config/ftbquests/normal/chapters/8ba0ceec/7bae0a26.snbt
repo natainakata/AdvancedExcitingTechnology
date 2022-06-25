@@ -1,0 +1,19 @@
+{
+	title: "{quests.aet.t1.plate}",
+	x: -14.5d,
+	y: -0.5d,
+	text: [
+		"{quests.aet.t1.plate.desc}"
+	],
+	dependencies: [
+		"bb5ad060",
+		"0714503f"
+	],
+	tasks: [{
+		uid: "5ddfe220",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 30"
+		}]
+	}]
+}

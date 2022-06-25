@@ -1,0 +1,27 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "tconstruct:shovel_head",
+			tag: {
+				Material: "slime"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "bone"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "{quests.aet.magic}",
+	icon: "dcs_climate:dcs_color",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

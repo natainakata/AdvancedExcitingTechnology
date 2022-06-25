@@ -1,0 +1,16 @@
+{
+	title: "{quests.aet.world.onsen}",
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"{quests.aet.world.onsen.desc}"
+	],
+	dependencies: [
+		"5aba66aa"
+	],
+	tasks: [{
+		uid: "97ee6b5b",
+		type: "fluid",
+		fluid: "dcs.hotspring"
+	}]
+}

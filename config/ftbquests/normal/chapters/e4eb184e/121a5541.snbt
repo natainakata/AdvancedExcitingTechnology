@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.ore.redmaterial}",
+	x: -8.5d,
+	y: -2.0d,
+	text: [
+		"{quests.aet.ore.redmaterial.desc}"
+	],
+	dependencies: [
+		"d7d53fa2"
+	],
+	tasks: [{
+		uid: "26d8d61a",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_gem_layer 1 2"
+		}]
+	}]
+}

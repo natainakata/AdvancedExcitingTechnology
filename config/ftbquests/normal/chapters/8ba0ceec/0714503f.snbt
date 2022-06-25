@@ -1,0 +1,29 @@
+{
+	title: "{quests.aet.t1.copper}",
+	x: -12.0d,
+	y: -5.0d,
+	text: [
+		"{quests.aet.t1.copper.desc}"
+	],
+	dependencies: [
+		"b26c7947"
+	],
+	tasks: [{
+		uid: "e55126d3",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotCopper"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotCopper"
+				}
+			}
+		}]
+	}]
+}

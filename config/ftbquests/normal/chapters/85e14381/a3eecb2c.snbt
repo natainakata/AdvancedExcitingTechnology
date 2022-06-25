@@ -1,0 +1,19 @@
+{
+	title: "{quests.aet.utils.storage}",
+	icon: "minecraft:chest",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"{quests.aet.utils.storage.desc}"
+	],
+	dependencies: [
+		"33046768"
+	],
+	tasks: [{
+		uid: "42d2a662",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}]
+}

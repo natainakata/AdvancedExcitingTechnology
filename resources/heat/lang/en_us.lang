@@ -1,0 +1,10 @@
+quests.aet.beginning=Genesis
+quests.aet.tools=Artifacts Blacksmith
+quests.aet.food=One Way of Eating
+quests.aet.t1=Basic Technology
+quests.aet.t2=Advanced Technology
+quests.aet.t3=Modern Technology
+quests.aet.magic=Magic Theory
+quests.aet.end=End Game
+
+tile.aet.sawmill.name=Saw Mill

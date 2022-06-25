@@ -1,0 +1,17 @@
+{
+	title: "{quests.aet.beginning.climate.check}",
+	x: -4.0d,
+	y: -7.5d,
+	text: [
+		"{quests.aet.beginning.climate.check.desc}"
+	],
+	dependencies: [
+		"820545da"
+	],
+	dependency_requirement: "all_started",
+	optional: true,
+	tasks: [{
+		uid: "0ca41f0a",
+		type: "checkmark"
+	}]
+}

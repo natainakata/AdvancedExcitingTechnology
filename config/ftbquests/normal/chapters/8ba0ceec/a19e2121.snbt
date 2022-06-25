@@ -1,0 +1,20 @@
+{
+	title: "{quests.aet.t1.wrench}",
+	x: -8.5d,
+	y: -2.5d,
+	text: [
+		"{quests.aet.t1.wrench.desc}"
+	],
+	dependencies: [
+		"9b404927"
+	],
+	tasks: [{
+		uid: "221c936b",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

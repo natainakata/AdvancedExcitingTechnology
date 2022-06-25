@@ -1,0 +1,7 @@
+{
+	title: "{quests.aet.ore}",
+	icon: "dcs_climate:dcs_oreitem 1 13",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

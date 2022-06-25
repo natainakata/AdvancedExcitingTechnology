@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.world.blaze}",
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"{quests.aet.world.blaze.desc}"
+	],
+	dependencies: [
+		"82a98abc"
+	],
+	tasks: [{
+		uid: "a35c8536",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}]
+}

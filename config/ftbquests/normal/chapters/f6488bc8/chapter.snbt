@@ -1,0 +1,7 @@
+{
+	title: "{quests.aet.t4}",
+	icon: "draconicevolution:wyvern_core",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

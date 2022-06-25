@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.t1.firestand}",
+	x: -19.5d,
+	y: 4.0d,
+	text: [
+		"{quests.aet.t1.firestand.desc}"
+	],
+	dependencies: [
+		"5a151b8c"
+	],
+	tasks: [{
+		uid: "f1e550cd",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_firestand"
+		}]
+	}]
+}

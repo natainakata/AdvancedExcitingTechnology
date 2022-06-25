@@ -1,0 +1,26 @@
+{
+	title: "{quests.aet.ore.whitegem}",
+	x: -2.5d,
+	y: -7.0d,
+	text: [
+		"{quests.aet.ore.whitegem.desc}"
+	],
+	dependencies: [
+		"a7436f97"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "17d36dee",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_gem_white"
+		}]
+	},
+	{
+		uid: "b1e5c494",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_gem_white 1 1"
+		}]
+	}]
+}

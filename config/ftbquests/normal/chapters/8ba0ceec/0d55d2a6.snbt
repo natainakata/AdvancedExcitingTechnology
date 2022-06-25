@@ -1,0 +1,29 @@
+{
+	title: "{quests.aet.t1.woodgear}",
+	x: -17.0d,
+	y: -5.0d,
+	text: [
+		"{quests.aet.t1.woodgear.desc}"
+	],
+	dependencies: [
+		"b830cfa4"
+	],
+	tasks: [{
+		uid: "f348257b",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearWood"
+				}
+			}
+		}]
+	}]
+}
