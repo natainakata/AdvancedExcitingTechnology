@@ -76,33 +76,21 @@
         "states": [
           {
             "id": "engineersdecor:small_tree_cutter",
-            "meta": 1
+            "meta": 0
           }
         ],
         "type": "states"
-      },
-      "air": {
-        "type": "air"
-      },
-      "any": {
-        "type": "any"
       }
     },
     "symbolMap": {
       "@": [
         "controller"
       ],
-      " ": [
-        "any"
-      ],
       "A": [
         "A"
       ],
       "B": [
         "B"
-      ],
-      "-": [
-        "air"
       ]
     }
   },

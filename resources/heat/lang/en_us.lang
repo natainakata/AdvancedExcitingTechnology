@@ -8,3 +8,5 @@ quests.aet.magic=Magic Theory
 quests.aet.end=End Game
 
 tile.aet.sawmill.name=Saw Mill
+
+multiblocked.recipe_map.sawmill=Saw Mill
