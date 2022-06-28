@@ -1,6 +1,6 @@
 {
 	title: "{quests.aet.world.theend}",
-	x: 0.5d,
+	x: 2.0d,
 	y: 3.0d,
 	text: [
 		"{quests.aet.world.theend.desc}"

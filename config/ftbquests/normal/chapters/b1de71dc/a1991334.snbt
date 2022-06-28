@@ -1,7 +1,7 @@
 {
 	title: "{quests.aet.world.mazai}",
-	x: -3.5d,
-	y: 0.0d,
+	x: -4.0d,
+	y: 1.5d,
 	text: [
 		"{quests.aet.world.mazai.desc}"
 	],

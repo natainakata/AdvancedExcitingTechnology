@@ -1,7 +1,7 @@
 {
 	title: "{quests.aet.world.dragon}",
 	icon: "minecraft:skull 1 5",
-	x: 3.0d,
+	x: 4.0d,
 	y: 3.0d,
 	text: [
 		"{quests.aet.world.dragon.desc}"

@@ -91,6 +91,15 @@ recipes.addShaped(<dcs_climate:dcs_device_windmill>,
   ]
 );
 
+recipes.addShaped(<dcs_climate:dcs_device_spinning_machine>,
+  [
+    [<ore:gearWood>, <ore:gearWood>, <ore:gearWood>],
+    [<ore:plankWood>, bronzegear, <ore:plankWood>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+  ]
+);
+
+
 // harder chambers
 val redstone = <minecraft:redstone>;
 val copperwire = <immersiveengineering:wirecoil>;
@@ -102,3 +111,37 @@ recipes.addShaped(<dcs_climate:dcs_device_chamber>,
     [redstone, copperwire, redstone]
   ]
 );
+
+// color oredict
+
+val dcsDropDict = <ore:dcsDrop>;
+val dcsExtractDict = <ore:dcsExtract>;
+val dcsDropDef = <dcs_climate:dcs_color>.definition;
+
+for i in 0 to 4 {
+  dcsDropDict.add(dcsDropDef.makeStack(i));
+}
+
+for i in 5 to 9 {
+  dcsExtractDict.add(dcsDropDef.makeStack(i));
+}
+
+// spell oredict
+
+val dcsSpellDict = <ore:dcsSpell>;
+val dcsAdvancedSpellDict = <ore:dcsSpellAdvanced>;
+val dcsMasterSpellDict = <ore:dcsSpellMaster>;
+val dcsSpellDef = <dcs_climate:dcs_magic_card>.definition;
+
+for i in 0 to 4 {
+  dcsSpellDict.add(dcsSpellDef.makeStack(i));
+}
+
+for i in 5 to 9 {
+  dcsAdvancedSpellDict.add(dcsSpellDef.makeStack(i));
+}
+
+for i in 10 to 14 {
+  dcsMasterSpellDict.add(dcsSpellDef.makeStack(i));
+}
+

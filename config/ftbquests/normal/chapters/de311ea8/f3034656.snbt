@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"bfd0f5e4"
+	],
+	tasks: [{
+		uid: "9c1bbe6a",
+		type: "checkmark",
+		title: "{quests.aet.magic.start}"
+	}]
+}
