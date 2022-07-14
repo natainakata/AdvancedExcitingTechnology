@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"c051bd2a"
+	],
+	tasks: [{
+		uid: "f9823fcc",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_ore_metal_alloy 1 3"
+		}]
+	}]
+}

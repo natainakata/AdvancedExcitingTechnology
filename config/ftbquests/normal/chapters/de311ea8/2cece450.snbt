@@ -9,16 +9,11 @@
 		"4b8144d5"
 	],
 	tasks: [{
-		uid: "76f6824b",
+		uid: "6f025834",
 		type: "item",
+		title: "{quests.aet.magic.hacring.item}",
 		items: [{
-			id: "dcs_climate:dcs_color_ring",
-			Damage: 2s,
-			tag: {
-				display: {
-					Name: "{quests.aet.magic.hacring.item}"
-				}
-			}
+			item: "dcs_climate:dcs_color_ring 1 2"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

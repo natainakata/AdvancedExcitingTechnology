@@ -10,12 +10,13 @@ recipes.remove(<immersiveengineering:stone_decoration:1>);
 recipes.remove(<immersiveengineering:stone_decoration:2>);
 recipes.remove(<immersiveengineering:metal_device1>);
 
-val stick = <ore:stickWood> | <ore:stickTreatedWood>;
+// hammer oredict
 recipes.remove(<immersiveengineering:tool>);
 recipes.addShaped(<immersiveengineering:tool>,
   [
-    [null, <ore:ingotIron>, <ore:string>],
-    [null, stick, <ore:ingotIron>],
-    [stick, null, null]
+    [null, iron, stringO],
+    [null, woodStick, iron],
+    [woodStick, null, null]
   ]
 );
+

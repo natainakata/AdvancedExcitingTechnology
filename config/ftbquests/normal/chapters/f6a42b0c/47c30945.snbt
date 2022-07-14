@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"953a437a"
+	],
+	tasks: [{
+		uid: "5791dc32",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_spindle 1 2"
+		}]
+	}]
+}

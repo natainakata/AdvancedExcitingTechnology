@@ -5,6 +5,9 @@
 	text: [
 		"{quests.aet.world.redring.desc}"
 	],
+	dependencies: [
+		"2cece450"
+	],
 	tasks: [{
 		uid: "792c3d71",
 		type: "item",

@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"953a437a"
+	],
+	tasks: [{
+		uid: "3e63d8b1",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_ibc"
+		}],
+		ignore_nbt: 1b
+	}]
+}

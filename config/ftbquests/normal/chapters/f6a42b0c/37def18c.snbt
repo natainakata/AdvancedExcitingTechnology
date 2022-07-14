@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	dependencies: [
+		"e28afd1c"
+	],
+	tasks: [{
+		uid: "97245074",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}]
+}

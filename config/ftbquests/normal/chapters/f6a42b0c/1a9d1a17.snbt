@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	dependencies: [
+		"aecbc6d1"
+	],
+	tasks: [{
+		uid: "8a7ad3ef",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_shaft_s_steel"
+		}]
+	}]
+}

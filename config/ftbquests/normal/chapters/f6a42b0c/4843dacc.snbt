@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	dependencies: [
+		"e28afd1c"
+	],
+	tasks: [{
+		uid: "7028aeba",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	},
+	{
+		uid: "de2e48d6",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 7"
+		}]
+	}]
+}

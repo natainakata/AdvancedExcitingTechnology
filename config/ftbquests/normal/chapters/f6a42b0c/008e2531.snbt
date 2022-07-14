@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 3.0d,
+	dependencies: [
+		"aecbc6d1"
+	],
+	tasks: [{
+		uid: "bab00246",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_conveyor"
+		}]
+	}]
+}

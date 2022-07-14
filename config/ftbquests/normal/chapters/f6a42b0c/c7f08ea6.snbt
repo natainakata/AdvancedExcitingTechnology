@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"1a9d1a17"
+	],
+	tasks: [{
+		uid: "98fba1c6",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_windmill_l"
+		}]
+	}]
+}

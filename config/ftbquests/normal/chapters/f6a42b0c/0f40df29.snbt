@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"61afa951",
+		"47c30945"
+	],
+	tasks: [{
+		uid: "24b269ff",
+		type: "item",
+		items: [{
+			item: "dcs_climate:dcs_device_reactor_ibc"
+		}]
+	}]
+}
