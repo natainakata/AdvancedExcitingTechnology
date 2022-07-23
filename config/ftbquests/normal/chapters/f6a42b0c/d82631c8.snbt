@@ -1,0 +1,19 @@
+{
+	title: "{quests.aet.t2.coke}",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c051bd2a"
+	],
+	tasks: [{
+		uid: "1eecdcd5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

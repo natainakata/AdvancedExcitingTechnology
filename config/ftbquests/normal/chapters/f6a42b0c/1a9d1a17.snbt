@@ -1,6 +1,10 @@
 {
-	x: 4.0d,
-	y: 1.5d,
+	title: "{quests.aet.t2.shaft}",
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"{quests.aet.t2.shaft.desc}"
+	],
 	dependencies: [
 		"aecbc6d1"
 	],

@@ -1,12 +1,15 @@
 {
-	x: -9.5d,
-	y: 0.0d,
+	title: "{quests.aet.t2.furnacegenerator}",
+	x: -6.5d,
+	y: 6.0d,
+	text: [
+		""
+	],
 	dependencies: [
-		"36d5a777",
-		"d65604c5"
+		"36d5a777"
 	],
 	tasks: [{
-		uid: "5085d8bc",
+		uid: "e39bf6df",
 		type: "item",
 		items: [{
 			id: "extrautils2:machine",

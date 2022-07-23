@@ -1,6 +1,10 @@
 {
-	x: 6.0d,
+	title: "{quests.aet.t2.largewindmill}",
+	x: 4.5d,
 	y: 3.0d,
+	text: [
+		"{quests.aet.t2.largewindmill.desc}"
+	],
 	dependencies: [
 		"1a9d1a17"
 	],

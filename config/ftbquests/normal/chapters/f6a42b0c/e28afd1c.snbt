@@ -1,8 +1,12 @@
 {
-	x: -5.5d,
+	title: "{quests.aet.t2.machinecase}",
+	x: -2.5d,
 	y: 0.0d,
+	text: [
+		""
+	],
 	dependencies: [
-		"ea3c9fde"
+		"c051bd2a"
 	],
 	tasks: [{
 		uid: "d868d6bb",

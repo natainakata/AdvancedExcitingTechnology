@@ -1,8 +1,11 @@
 {
+	title: "{quests.aet.t2.hacwatermill}",
 	x: 6.0d,
-	y: 1.5d,
+	y: -1.5d,
+	text: [
+		"{quests.aet.t2.hacwatermill.desc}"
+	],
 	dependencies: [
-		"1a9d1a17",
 		"47c30945"
 	],
 	tasks: [{

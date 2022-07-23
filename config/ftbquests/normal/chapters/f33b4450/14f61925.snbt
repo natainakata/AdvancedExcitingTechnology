@@ -1,7 +1,7 @@
 {
 	title: "{quests.aet.tools.brass}",
 	icon: "dcs_climate:dcs_axe_brass",
-	x: -2.5d,
+	x: -4.0d,
 	y: 2.0d,
 	shape: "circle",
 	text: [

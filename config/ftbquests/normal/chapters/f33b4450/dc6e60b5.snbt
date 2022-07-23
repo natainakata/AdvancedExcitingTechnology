@@ -6,7 +6,7 @@
 		"{quests.aet.tools.smeltery.desc}"
 	],
 	dependencies: [
-		"76c10d77"
+		"fff49c96"
 	],
 	tasks: [{
 		uid: "387481f8",
@@ -38,37 +38,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "0ff17d2b",
-		type: "item",
-		items: [{
-			item: "tconstruct:casting"
-		}]
-	},
-	{
-		uid: "108df499",
-		type: "item",
-		items: [{
-			item: "tconstruct:casting 1 1"
-		}]
-	},
-	{
-		uid: "8ca19523",
-		type: "item",
-		items: [{
-			item: "tconstruct:faucet"
-		}],
-		count: 2L
 	}],
 	rewards: [{
 		uid: "c1a9b02a",
 		type: "item",
 		item: "minecraft:lava_bucket"
-	},
-	{
-		uid: "e90d0e3c",
-		type: "item",
-		item: "tconstruct:cast_custom"
 	}]
 }

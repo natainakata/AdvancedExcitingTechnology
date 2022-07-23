@@ -1,7 +1,27 @@
 {
- "sampleModID:sampleBlockName:0": {
-  "airflow": "NORMAL (If you set TIGHT, it will be ignored.)",
-  "temperature": "HOT (If you set NORMAL, it will be ignored.)",
-  "humidity": "WET (If you set NORMAL, it will be ignored.)"
- }
+  "sampleModID:sampleBlockName:0": {
+   "airflow": "NORMAL (If you set TIGHT, it will be ignored.)",
+   "temperature": "HOT (If you set NORMAL, it will be ignored.)",
+   "humidity": "WET (If you set NORMAL, it will be ignored.)"
+  },
+  "tconstruct:stone_torch": {
+    "airflow": "TIGHT",
+    "temperature": "HOT",
+    "humidity": "NORMAL"
+  },
+  "actuallyadditions:block_tiny_torch": {
+    "airflow": "TIGHT",
+    "temperature": "HOT",
+    "humidity": "NORMAL"
+  },
+  "inspirations:torch_lever": {
+    "airflow": "TIGHT",
+    "temperature": "HOT",
+    "humidity": "NORMAL"
+  },
+  "torchmaster:feral_flare_lantern": {
+    "airflow": "TIGHT",
+    "temperature": "WARM",
+    "humidity": "NORMAL"
+  }
 }

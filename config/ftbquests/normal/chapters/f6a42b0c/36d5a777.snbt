@@ -1,6 +1,10 @@
 {
-	x: -9.5d,
-	y: -1.5d,
+	title: "{quests.aet.t2.resonatedcase}",
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"4843dacc"
 	],

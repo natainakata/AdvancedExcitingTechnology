@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.t2.iewatermill}",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34fa4586"
+	],
+	tasks: [{
+		uid: "e7c64fb3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device1"
+		}]
+	}]
+}

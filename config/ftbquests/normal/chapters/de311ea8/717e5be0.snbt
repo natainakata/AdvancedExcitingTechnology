@@ -1,0 +1,23 @@
+{
+	title: "{quests.aet.magic.will}",
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"f3034656"
+	],
+	tasks: [{
+		uid: "ceb5489b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "fc08758a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

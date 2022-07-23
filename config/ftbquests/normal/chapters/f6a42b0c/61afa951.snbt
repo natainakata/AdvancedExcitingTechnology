@@ -1,6 +1,10 @@
 {
-	x: 4.0d,
+	title: "{quests.aet.t2.ibctank}",
+	x: 3.0d,
 	y: -1.5d,
+	text: [
+		"{quests.aet.t2.ibctank.desc}"
+	],
 	dependencies: [
 		"953a437a"
 	],

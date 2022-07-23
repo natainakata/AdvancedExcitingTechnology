@@ -1,11 +1,15 @@
 {
-	x: 2.5d,
-	y: 3.0d,
+	title: "{quests.aet.t2.conveyor}",
+	x: 4.5d,
+	y: 1.5d,
+	text: [
+		"{quests.aet.t2.conveyor.desc}"
+	],
 	dependencies: [
 		"aecbc6d1"
 	],
 	tasks: [{
-		uid: "bab00246",
+		uid: "06d9c350",
 		type: "item",
 		items: [{
 			item: "dcs_climate:dcs_device_conveyor"

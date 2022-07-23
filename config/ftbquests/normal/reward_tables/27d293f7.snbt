@@ -1,0 +1,28 @@
+{
+	title: "HaC Seeds",
+	loot_size: 1,
+	rewards: [{
+		item: "dcs_climate:dcs_food_seeds 1 9",
+		count: 5
+	},
+	{
+		item: "dcs_climate:dcs_food_seeds 1 1",
+		count: 5
+	},
+	{
+		item: "dcs_climate:dcs_food_seeds",
+		count: 5
+	},
+	{
+		item: "dcs_climate:dcs_food_seeds 1 2",
+		count: 5
+	},
+	{
+		item: "dcs_climate:dcs_food_seeds 1 3",
+		count: 5
+	},
+	{
+		item: "dcs_climate:dcs_food_seeds 1 13",
+		count: 5
+	}]
+}

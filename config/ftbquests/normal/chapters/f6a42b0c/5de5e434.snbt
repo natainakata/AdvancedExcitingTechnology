@@ -1,0 +1,19 @@
+{
+	title: "{quests.aet.t2.aacrusher}",
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a4b92f58"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a3ed3bd2",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_grinder"
+		}]
+	}]
+}

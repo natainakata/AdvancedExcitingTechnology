@@ -62,6 +62,7 @@ quests.aet.tools=アーティファクト職人
 quests.aet.tools.awesome=おーさむ つーるず
 quests.aet.tools.chalcedony=超ピーキー
 quests.aet.tools.brass=上向くんだよ90°
+quests.aet.tools.melter=簡易溶融
 quests.aet.tools.smeltery=溶鉱炉に沈む
 quests.aet.tools.toolforge=ブラックスミステーブル
 quests.aet.tools.shuriken=鋼鉄の星
@@ -74,6 +75,13 @@ quests.aet.tools.scythe=死神の鎌
 quests.aet.tools.sceptre=マジカルワンド
 
 quests.aet.food=農業と料理
+quests.aet.food.awesome=おーさむ ふーず
+
+quests.aet.food.hac=気難しい作物
+
+quests.aet.food.rustic=お酒やお薬
+
+quests.aet.food.ffm=農業の大御所
 
 quests.aet.utils=お助けユーティリティ
 quests.aet.utils.awesome=おーさむ あいてむず
@@ -106,13 +114,64 @@ quests.aet.t1.bellow=大勢で踏むやつ
 quests.aet.t1.chamber=限界突破
 quests.aet.t1.steel=金属の代名詞
 
-
-
 quests.aet.t2=高度技術
+quests.aet.t2.start=本格的な工業化
+quests.aet.t2.start.desc=HaCのTier2とForge Energy(RF)で動く機械を実装するMODが解禁されました。クエスト報酬の発電機は木系のアイテム（木炭は不可）を燃やしてエネルギーを生産できます。
+quests.aet.t2.gearsteel=HaC以外のore:gearSteelがありそうで実はない
+quests.aet.t2.conveyor=動力源不明
+quests.aet.t2.shaft=よりよいシャフト
+quests.aet.t2.nickelsilver=500円玉
+quests.aet.t2.gearalloy=洋白の回転子
+quests.aet.t2.ibctank=液体コンテナは好みが出る
+quests.aet.t2.simplereactor=廉価版
+quests.aet.t2.hacwatermill=水車その1
+quests.aet.t2.largewindmill=風車小屋から強奪せよ
+quests.aet.t2.stonemill=1鉱石が2インゴットに
+quests.aet.t2.conveyorfurnace=ライン精錬
+
+quests.aet.t2.infinity=岩盤で焚き火
+quests.aet.t2.simplemachine=元気のGは始まりのG
+quests.aet.t2.simplealloysmelter=金属融合
+quests.aet.t2.energyconduit=万能ケーブル
+
+quests.aet.t2.coke=蒸し焼き
+quests.aet.t2.treatedwood=クレオソートコーティング
+quests.aet.t2.engineerworkbench=作業台レベル5億
+quests.aet.t2.dynamo=回転発電の付け根
+quests.aet.t2.iewatermill=水車その2
+quests.aet.t2.iewindmill=風車その2
+quests.aet.t2.lvcapacitor=低圧バッテリー
+
+quests.aet.t2.machinecase=機械のガワ
+quests.aet.t2.latex=樹液絞り
+quests.aet.t2.atomicreconstructor=再構成
+quests.aet.t2.crystalizedcase=元・Iron Casing
+quests.aet.t2.poweredfurnace=パワー！ハッ
+quests.aet.t2.coalgenerator=強化発電機その1
+quests.aet.t2.aacrusher=まだ変身を残している
+quests.aet.t2.doublecrusher=二台分
+quests.aet.t2.resonator=レッドストーン共鳴
+quests.aet.t2.resonatedcase=元・Machine Block
+quests.aet.t2.furnacegenerator=強化発電機その2
+quests.aet.t2.xu2machine=ExU2の鉱石倍加機構
+quests.aet.t2.enchanter=魔導刻印装置
+quests.aet.t2.gridmill=GP生成装置
+quests.aet.t2.wireless=電磁誘導
 
 quests.aet.t3=発展技術
 
 quests.aet.magic=魔術理論
+quests.aet.magic.start=神秘的な力
+
+quests.aet.magic.drop=五色のエレメント
+quests.aet.magic.hacspell=使い捨て
+quests.aet.magic.hacring=インベントリと相談して使おう
+
+quests.aet.magic.botaniaflower=マナを宿す花
+
+quests.aet.magic.aquamarine=川にだいたいある
+
+quests.aet.magic.will=悪魔の力
 
 quests.aet.t4=技術的特異点
 
@@ -121,3 +180,4 @@ quests.aet.end=おわり
 
 tile.aet.sawmill.name=製材機
 multiblocked.recipe_map.sawmill=製材機
+

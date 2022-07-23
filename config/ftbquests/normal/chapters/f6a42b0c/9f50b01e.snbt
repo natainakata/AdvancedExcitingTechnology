@@ -1,0 +1,40 @@
+{
+	title: "{quests.aet.t2.gridmill}",
+	x: -5.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4843dacc"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "3c0eadef",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}]
+	},
+	{
+		uid: "2cd8427a",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 2"
+		}]
+	},
+	{
+		uid: "bcb3eb97",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 4"
+		}]
+	},
+	{
+		uid: "58b5cb7d",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 5"
+		}]
+	}]
+}

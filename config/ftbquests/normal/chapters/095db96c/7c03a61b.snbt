@@ -1,0 +1,23 @@
+{
+	icon: "forestry:beehives 1 1",
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"db630030"
+	],
+	tasks: [{
+		uid: "5690ede8",
+		type: "checkmark",
+		title: "{quests.aet.food.ffm}"
+	}],
+	rewards: [{
+		uid: "217be6d7",
+		type: "item",
+		item: "forestry:scoop"
+	},
+	{
+		uid: "f3525989",
+		type: "item",
+		item: "forestry:smoker"
+	}]
+}

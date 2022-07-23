@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.t2.lvcapacitor}",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f7c81545"
+	],
+	tasks: [{
+		uid: "eebce74f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device0"
+		}]
+	}]
+}

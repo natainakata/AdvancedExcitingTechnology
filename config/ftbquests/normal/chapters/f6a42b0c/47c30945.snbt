@@ -1,6 +1,10 @@
 {
-	x: 6.0d,
+	title: "{quests.aet.t2.gearalloy}",
+	x: 4.5d,
 	y: 0.0d,
+	text: [
+		"{quests.aet.t2.gearalloy.desc}"
+	],
 	dependencies: [
 		"953a437a"
 	],

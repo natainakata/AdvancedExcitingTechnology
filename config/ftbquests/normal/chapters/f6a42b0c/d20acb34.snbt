@@ -1,0 +1,25 @@
+{
+	title: "{quests.aet.t2.wireless}",
+	x: -4.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4843dacc"
+	],
+	tasks: [{
+		uid: "d70878bd",
+		type: "item",
+		items: [{
+			item: "extrautils2:powerbattery"
+		}]
+	},
+	{
+		uid: "c516e5ea",
+		type: "item",
+		items: [{
+			item: "extrautils2:powertransmitter"
+		}]
+	}]
+}

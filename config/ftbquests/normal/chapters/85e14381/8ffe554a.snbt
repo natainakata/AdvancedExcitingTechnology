@@ -8,8 +8,8 @@
 			}
 		}
 	},
-	x: -3.5d,
-	y: 0.0d,
+	x: -2.0d,
+	y: -2.0d,
 	text: [
 		"{quests.aet.utils.littlemaid.desc}"
 	],

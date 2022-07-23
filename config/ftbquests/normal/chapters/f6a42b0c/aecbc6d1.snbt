@@ -1,6 +1,10 @@
 {
-	x: 2.5d,
+	title: "{quests.aet.t2.gearsteel}",
+	x: 3.0d,
 	y: 1.5d,
+	text: [
+		"{quests.aet.t2.gearsteel.desc}"
+	],
 	dependencies: [
 		"c051bd2a"
 	],
@@ -8,7 +12,18 @@
 		uid: "d2415ab8",
 		type: "item",
 		items: [{
-			item: "dcs_climate:dcs_spindle 1 3"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gearSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gearSteel"
+				}
+			}
 		}]
 	}]
 }

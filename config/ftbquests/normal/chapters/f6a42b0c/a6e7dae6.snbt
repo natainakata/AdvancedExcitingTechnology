@@ -1,0 +1,18 @@
+{
+	title: "{quests.aet.t2.coalgenerator}",
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a4b92f58"
+	],
+	tasks: [{
+		uid: "5539a0fd",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}]
+}

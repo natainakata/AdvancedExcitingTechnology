@@ -1,6 +1,10 @@
 {
-	x: -9.5d,
-	y: 1.5d,
+	title: "{quests.aet.t2.crystalizedcase}",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"37def18c"
 	],

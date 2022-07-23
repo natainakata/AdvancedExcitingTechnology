@@ -1,6 +1,10 @@
 {
-	x: 8.0d,
+	title: "{quests.aet.t2.stonemill}",
+	x: 6.0d,
 	y: 0.0d,
+	text: [
+		"{quests.aet.t2.stonemill.desc}"
+	],
 	dependencies: [
 		"47c30945"
 	],

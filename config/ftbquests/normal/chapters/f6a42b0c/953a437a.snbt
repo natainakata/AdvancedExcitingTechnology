@@ -1,6 +1,10 @@
 {
-	x: 4.0d,
+	title: "{quests.aet.t2.nickelsilver}",
+	x: 3.0d,
 	y: 0.0d,
+	text: [
+		"{quests.aet.t2.nickelsilver.desc}"
+	],
 	dependencies: [
 		"c051bd2a"
 	],

@@ -8,5 +8,7 @@ quests.aet.magic=Magic Theory
 quests.aet.end=End Game
 
 tile.aet.sawmill.name=Saw Mill
+tile.actuallyadditions.block_misc_iron_casing.name=Crystalized Case
+machine.blank=Resonated Case
 
 multiblocked.recipe_map.sawmill=Saw Mill

@@ -1,6 +1,6 @@
 {
 	title: "{quests.aet.tools.chalcedony}",
-	x: -2.5d,
+	x: -4.0d,
 	y: -2.0d,
 	text: [
 		"{quests.aet.tools.chalcedony.desc}"

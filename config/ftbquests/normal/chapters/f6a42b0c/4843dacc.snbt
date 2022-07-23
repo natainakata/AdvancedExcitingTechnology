@@ -1,6 +1,10 @@
 {
-	x: -7.5d,
-	y: -1.5d,
+	title: "{quests.aet.t2.resonator}",
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"e28afd1c"
 	],
@@ -16,6 +20,13 @@
 		type: "item",
 		items: [{
 			item: "extrautils2:passivegenerator 1 7"
+		}]
+	},
+	{
+		uid: "2f1fb19c",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 3"
 		}]
 	}]
 }
