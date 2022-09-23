@@ -124,8 +124,8 @@ recipes.addShaped(<dcs_climate:dcs_device_conveyor> * 8,
 jei.removeAndHide(<dcs_climate:dcs_color_ring2:0>);
 recipes.addShaped(<contenttweaker:dcs_color_ring2>, 
   [
-    [ null, <ore:dustCrystal>, null ],
-    [ null, <ore:dropBlue>, null ],
+    [ null, crystalDust, null ],
+    [ null, blueDrop, null ],
     [ null, gold, null ]
   ]
 );
