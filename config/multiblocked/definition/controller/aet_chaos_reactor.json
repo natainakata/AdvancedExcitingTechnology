@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "location": "aet:chaos_reactor",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 14,
+      "y": 6,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 10000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    },
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 137,
+        "y": 58,
+        "autoIO": false,
+        "tC": 16000
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 35,
+        "y": 57,
+        "autoIO": false,
+        "tC": 16000
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 15,
+        "y": 57,
+        "autoIO": false,
+        "tC": 16000
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:gregtech_chaos_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "empty",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "   A   ",
+        "  ABA  ",
+        " ABABA ",
+        "ABABABA",
+        " ABABA ",
+        "  ABA  ",
+        "   A   "
+      ],
+      [
+        "  ABA  ",
+        " BCCCB ",
+        "ADDDDDA",
+        "BCCCCCB",
+        "ADDDDDA",
+        " BCCCB ",
+        "  ABA  "
+      ],
+      [
+        " ABABA ",
+        "ACCCCCA",
+        "BDDDDDB",
+        "ACCCCCA",
+        "BDDDDDB",
+        "ACCCCCA",
+        " ABABA "
+      ],
+      [
+        "ABABABA",
+        "BCCCCCB",
+        "ADDDDDA",
+        "@CCCCCE",
+        "ADDDDDA",
+        "BCCCCCB",
+        "ABABABA"
+      ],
+      [
+        " ABABA ",
+        "ACCCCCA",
+        "BDDDDDB",
+        "ACCCCCA",
+        "BDDDDDB",
+        "ACCCCCA",
+        " ABABA "
+      ],
+      [
+        "  ABA  ",
+        " BCCCB ",
+        "ADDDDDA",
+        "BCCCCCB",
+        "ADDDDDA",
+        " BCCCB ",
+        "  ABA  "
+      ],
+      [
+        "   A   ",
+        "  ABA  ",
+        " ABABA ",
+        "ABABABA",
+        " ABABA ",
+        "  ABA  ",
+        "   A   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "extendedcrafting:storage",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "aet:chaos_reactor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "enderio:block_fused_quartz",
+            "meta": 14
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "engineersdecor:panzerglass_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

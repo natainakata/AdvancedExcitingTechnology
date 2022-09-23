@@ -1,22 +1,45 @@
 {
-    "SampleRecipeID1 (Any string.)": {
-        "recipe_type": "ADD",
-        "output": {
-            "item": "samplemod:sample_output:metadata"
-        },
-        "climate_temperature": "KILN (If this is removed, it will be forced to NORMAL.)",
-        "climate_humidity": "DRY (If this is removed, it will be unspecified.)",
-        "climate_airflow": "TIGHT (If this is removed, it will be unspecified.)",
-        "input": {
-            "ore_dict": "ore_dict name is acceptable as input."
-        }
+  "SampleRecipeID1 (Any string.)": {
+      "recipe_type": "ADD",
+      "output": {
+          "item": "samplemod:sample_output:metadata"
+      },
+      "climate_temperature": "KILN (If this is removed, it will be forced to NORMAL.)",
+      "climate_humidity": "DRY (If this is removed, it will be unspecified.)",
+      "climate_airflow": "TIGHT (If this is removed, it will be unspecified.)",
+      "input": {
+          "ore_dict": "ore_dict name is acceptable as input."
+      }
+  },
+  "SampleRecipeID2": {
+      "recipe_type": "REMOVE",
+      "output": {
+          "item": "samplemod:remove_output:0"
+      },
+      "climate_temperature": "COLD",
+      "climate_humidity": "WET"
+  },
+
+  "smelt_constantan": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "immersiveengineering:storage:6"
     },
-    "SampleRecipeID2": {
-        "recipe_type": "REMOVE",
-        "output": {
-            "item": "samplemod:remove_output:0"
-        },
-        "climate_temperature": "COLD",
-        "climate_humidity": "WET"
+    "climate_temperature": "SMELTING",
+    "climate_airflow": "TIGHT",
+    "input": {
+      "item": "contenttweaker:dustblock_constantan"
     }
+  },
+  "smelt_electrum": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "immersiveengineering:storage:7"
+    },
+    "climate_temperature": "SMELTING",
+    "climate_airflow": "TIGHT",
+    "input": {
+      "item": "contenttweaker:dustblock_electrum"
+    }
+  }
 }

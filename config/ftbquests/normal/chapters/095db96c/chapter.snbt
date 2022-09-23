@@ -1,7 +1,0 @@
-{
-	title: "{quests.aet.food}",
-	icon: "dcs_climate:dcs_device_aging_barrel",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

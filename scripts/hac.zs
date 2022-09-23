@@ -1,10 +1,12 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.jei.JEI as jei;
 
 print("------- Heat And Climate Start -------");
+
+
 
 // repeir ore dict
 recipes.remove(<dcs_climate:dcs_repair>);
@@ -115,5 +117,15 @@ recipes.addShaped(<dcs_climate:dcs_device_conveyor> * 8,
     [ null, null, null ],
     [ steelPlate, steelGear, steelPlate ],
     [ null, null, null ]
+  ]
+);
+
+// fix blue gold ring
+jei.removeAndHide(<dcs_climate:dcs_color_ring2:0>);
+recipes.addShaped(<contenttweaker:dcs_color_ring2>, 
+  [
+    [ null, <ore:dustCrystal>, null ],
+    [ null, <ore:dropBlue>, null ],
+    [ null, gold, null ]
   ]
 );

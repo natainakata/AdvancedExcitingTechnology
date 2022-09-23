@@ -7,16 +7,26 @@ quests.aet.beginning.climate.check=気候を調べる
 quests.aet.beginning.climate.check.desc=最初のクエストで貰った気候チェッカーは、右クリックした地点のClimate値をチャットログに表示します。また、JEIの「バイオーム気候情報」タブにはバイオームの気候が記されています。その他、「気候に影響するブロック」タブには熱源となるブロックの一覧があります。
 quests.aet.beginning.tree=恐怖！素手木こり
 quests.aet.beginning.tree.desc=初歩の初歩、原木を手に入れましょう。
+quests.aet.beginning.base=基本クラフト
+quests.aet.beginning.base.desc=作業台とかまどを作りましょう。
 quests.aet.beginning.charcoal=気候精錬をやってみよう
 quests.aet.beginning.charcoal.desc=原木を木炭に焼き上げましょう。普通にかまどで焼いてもいいですが、ここではHaCの気候精錬を試してみましょう。原木を8個で原木箱をクラフトし、溶岩や火（温度KILN）の近くに深さ2マスの穴を掘り、原木箱を設置してしばらく経つと木炭箱に変化します。
 quests.aet.beginning.tools=鍛冶職人
-quests.aet.beginning.tools.desc=Tinker's Constructであなたの相棒となるツールを鍛えましょう。なお、HEATにはTiC以外の選択肢も存在します。
+quests.aet.beginning.tools.desc=Tinker'sConstructであなたの相棒となるツールを鍛えましょう。なお、AETにはTiC以外の選択肢も存在します。
 quests.aet.beginning.started=旅の始まり
 quests.aet.beginning.started.desc=準備はできましたか？AETのメインクエストを開放します。
 
-quests.aet.ore=大地の資源
+quests.aet.ore=鉱石
 
 quests.aet.ore.generation=5色の鉱脈
+
+quests.aet.ore.iron=基本金属
+quests.aet.ore.gold=メサを探そう
+quests.aet.ore.coal=化石燃料
+quests.aet.ore.diamond=炭素の塊
+quests.aet.ore.emerald=ハナデカ中央銀行
+quests.aet.ore.lapis=エンチャント触媒
+quests.aet.ore.redstone=導電性
 
 quests.aet.ore.redvein=赤の鉱脈
 quests.aet.ore.redore=黃銅ボーキマンガン鉱
@@ -43,12 +53,13 @@ quests.aet.ore.blackore=磁鉄銀鉛鉱
 quests.aet.ore.blackgem=黒の深淵
 quests.aet.ore.blackmaterial=温泉からも産出する
 
-quests.aet.world=世界一周の旅
+quests.aet.ore.skarn=クソデカ鉱脈
+
+quests.aet.world=探索
 quests.aet.world.overworld=地上の構造物
-quests.aet.world.meteor=放つ光 空に堕ちる
+quests.aet.world.meteor=一人用のポッド
 quests.aet.world.caravan=拠点に押しかけて来ないタイプの行商人
 quests.aet.world.windmillhut=序盤ショートカットの鍵
-quests.aet.world.skarn=クソデカ鉱脈
 quests.aet.world.onsen=農場の下に仕込むといい
 quests.aet.world.slimeisland=スライムラピュタ
 quests.aet.world.nether=世界の底
@@ -58,44 +69,57 @@ quests.aet.world.endereye=導きの緑眼
 quests.aet.world.theend=世界の果て
 quests.aet.world.dragon=終焉の使者
 
-quests.aet.tools=アーティファクト職人
-quests.aet.tools.awesome=おーさむ つーるず
-quests.aet.tools.chalcedony=超ピーキー
-quests.aet.tools.brass=上向くんだよ90°
-quests.aet.tools.melter=簡易溶融
-quests.aet.tools.smeltery=溶鉱炉に沈む
-quests.aet.tools.toolforge=ブラックスミステーブル
-quests.aet.tools.shuriken=鋼鉄の星
-quests.aet.tools.lumberaxe=一括破壊キーを離そう
-quests.aet.tools.cleaver=首を置いてけ！なあ！
-quests.aet.tools.hammer=石掘り名人
-quests.aet.tools.excavator=土掘り達人
-quests.aet.tools.crossbow=ピリジャーの獲物
-quests.aet.tools.scythe=死神の鎌
-quests.aet.tools.sceptre=マジカルワンド
+quests.aet.tool=道具
+quests.aet.tool.awesome=おーさむ つーるず
+quests.aet.tool.chalcedony=超ピーキー
+quests.aet.tool.brass=上向くんだよ90°
+quests.aet.tool.melter=簡易溶融
+quests.aet.tool.smeltery=溶鉱炉に沈む
+quests.aet.tool.knightslime=スライムの騎士
+quests.aet.tool.manyullyn=単品だといっちゃん強い？
+quests.aet.tool.alubrass=互換性なし
+quests.aet.tool.pigiron=銑鉄？？？？
+quests.aet.tool.toolforge=ブラックスミステーブル
+quests.aet.tool.shuriken=鋼鉄の星
+quests.aet.tool.lumberaxe=一括破壊キーを離そう
+quests.aet.tool.cleaver=首を置いてけ！なあ！
+quests.aet.tool.hammer=石掘り名人
+quests.aet.tool.excavator=土掘り達人
+quests.aet.tool.crossbow=ピリジャーの獲物
+quests.aet.tool.scythe=死神の鎌
+quests.aet.tool.sceptre=マジカルワンド
+quests.aet.tool.chisel=彫刻ソード
+quests.aet.tool.scythe=隣の芝刈り
 
-quests.aet.food=農業と料理
+quests.aet.food=農業・料理
 quests.aet.food.awesome=おーさむ ふーず
 
 quests.aet.food.hac=気難しい作物
+quests.aet.food.dispenser=レッドストーン式収穫機構
+quests.aet.food.entityfood=エンティティモデル
+
+quests.aet.food.vanilla=おなじみ
+
+quests.aet.food.modded=追加戦士
 
 quests.aet.food.rustic=お酒やお薬
 
-quests.aet.food.ffm=農業の大御所
 
-quests.aet.utils=お助けユーティリティ
+quests.aet.utils=ユーティリティ
 quests.aet.utils.awesome=おーさむ あいてむず
 quests.aet.utils.storage=押入れ
+quests.aet.utils.drawer=亜空間引き出し
+quests.aet.utils.lowchest=二倍お得
 quests.aet.utils.littlemaid=ちいさい従者
 quests.aet.utils.souvenir=メイドより舞い戻る
 
-quests.aet.t1=基礎技術
+quests.aet.t1=HaC:T1
 quests.aet.t1.start=バニラを脱出せよ
 quests.aet.t1.woodgear=回転機構
 quests.aet.t1.mortar=すりつぶし
 quests.aet.t1.copper=最近バニラにも実装された
 quests.aet.t1.bronze=3番手
-quests.aet.t1.brass=管楽器に使われてる印象（偏見）
+quests.aet.t1.brass=銅の合金
 quests.aet.t1.gearbrass=本格的な歯車
 quests.aet.t1.wrench=設定工具
 quests.aet.t1.torque=トルクパゥワァー
@@ -105,7 +129,7 @@ quests.aet.t1.handspindle=糸を巻く
 quests.aet.t1.string=リネン糸
 quests.aet.t1.pattern=服の型紙
 quests.aet.t1.spinning=自動紡績機
-quests.aet.t1.hammer=職人のトンカチ
+quests.aet.t1.hammer=金属加工
 quests.aet.t1.plate=平伏せよ
 quests.aet.t1.wirecoil=電気を流し、熱を出す
 quests.aet.t1.oven=ジェネリックかまど
@@ -114,9 +138,7 @@ quests.aet.t1.bellow=大勢で踏むやつ
 quests.aet.t1.chamber=限界突破
 quests.aet.t1.steel=金属の代名詞
 
-quests.aet.t2=高度技術
-quests.aet.t2.start=本格的な工業化
-quests.aet.t2.start.desc=HaCのTier2とForge Energy(RF)で動く機械を実装するMODが解禁されました。クエスト報酬の発電機は木系のアイテム（木炭は不可）を燃やしてエネルギーを生産できます。
+quests.aet.t2=HaC:T2
 quests.aet.t2.gearsteel=HaC以外のore:gearSteelがありそうで実はない
 quests.aet.t2.conveyor=動力源不明
 quests.aet.t2.shaft=よりよいシャフト
@@ -129,55 +151,65 @@ quests.aet.t2.largewindmill=風車小屋から強奪せよ
 quests.aet.t2.stonemill=1鉱石が2インゴットに
 quests.aet.t2.conveyorfurnace=ライン精錬
 
-quests.aet.t2.infinity=岩盤で焚き火
-quests.aet.t2.simplemachine=元気のGは始まりのG
-quests.aet.t2.simplealloysmelter=金属融合
-quests.aet.t2.energyconduit=万能ケーブル
+quests.aet.eio=Ender IO
+quests.aet.eio.infinity=岩盤で焚き火
+quests.aet.eio.simplemachine=元気のGは始まりのG
+quests.aet.eio.simplealloysmelter=金属融合
+quests.aet.eio.energyconduit=万能ケーブル
 
-quests.aet.t2.coke=蒸し焼き
-quests.aet.t2.treatedwood=クレオソートコーティング
-quests.aet.t2.engineerworkbench=作業台レベル5億
-quests.aet.t2.dynamo=回転発電の付け根
-quests.aet.t2.iewatermill=水車その2
-quests.aet.t2.iewindmill=風車その2
-quests.aet.t2.lvcapacitor=低圧バッテリー
+quests.aet.imm=Immersive Engineering
+quests.aet.imm.coke=蒸し焼き
+quests.aet.imm.treatedwood=クレオソートコーティング
+quests.aet.imm.engineerworkbench=作業台レベル5億
+quests.aet.imm.dynamo=回転発電の付け根
+quests.aet.imm.iewatermill=水車その2
+quests.aet.imm.iewindmill=風車その2
+quests.aet.imm.lvcapacitor=低圧バッテリー
 
-quests.aet.t2.machinecase=機械のガワ
-quests.aet.t2.latex=樹液絞り
-quests.aet.t2.atomicreconstructor=再構成
-quests.aet.t2.crystalizedcase=元・Iron Casing
-quests.aet.t2.poweredfurnace=パワー！ハッ
-quests.aet.t2.coalgenerator=強化発電機その1
-quests.aet.t2.aacrusher=まだ変身を残している
-quests.aet.t2.doublecrusher=二台分
-quests.aet.t2.resonator=レッドストーン共鳴
-quests.aet.t2.resonatedcase=元・Machine Block
-quests.aet.t2.furnacegenerator=強化発電機その2
-quests.aet.t2.xu2machine=ExU2の鉱石倍加機構
-quests.aet.t2.enchanter=魔導刻印装置
-quests.aet.t2.gridmill=GP生成装置
-quests.aet.t2.wireless=電磁誘導
+quests.aet.extras=Machine Extras
+quests.aet.extras.machinecase=機械のガワ
+quests.aet.extras.latex=樹液絞り
+quests.aet.extras.autoharvest=二人は農キュア
 
-quests.aet.t3=発展技術
+quests.aet.extras.atomicreconstructor=再構成
+quests.aet.extras.crystalizedcase=元・Iron Casing
+quests.aet.extras.poweredfurnace=パワー！ハッ
+quests.aet.extras.coalgenerator=強化発電機その1
+quests.aet.extras.aacrusher=まだ変身を残している
+quests.aet.extras.doublecrusher=二台分
 
-quests.aet.magic=魔術理論
-quests.aet.magic.start=神秘的な力
+quests.aet.extras.resonator=レッドストーン共鳴
+quests.aet.extras.resonatedcase=元・Machine Block
+quests.aet.extras.furnacegenerator=強化発電機その2
+quests.aet.extras.xu2machine=ExU2の鉱石倍加機構
+quests.aet.extras.enchanter=魔導刻印装置
+quests.aet.extras.gridmill=GP生成装置
+quests.aet.extras.wireless=電磁誘導
+quests.aet.extras.xu2upgrade=強化パーツ
 
-quests.aet.magic.drop=五色のエレメント
-quests.aet.magic.hacspell=使い捨て
-quests.aet.magic.hacring=インベントリと相談して使おう
+quests.aet.ffm=Forestry
 
-quests.aet.magic.botaniaflower=マナを宿す花
+quests.aet.t3=HaC:T3
 
-quests.aet.magic.aquamarine=川にだいたいある
+quests.aet.hacmagic.drop=五色のエレメント
+quests.aet.hacmagic.hacspell=使い捨て
+quests.aet.hacmagic.hacring=インベントリと相談して使おう
 
-quests.aet.magic.will=悪魔の力
+quests.aet.botania.botaniaflower=マナを宿す花
 
-quests.aet.t4=技術的特異点
+quests.aet.as.aquamarine=川にだいたいある
+
+quests.aet.bm.will=悪魔の力
+
+quests.aet.de=技術的特異点
 
 quests.aet.end=おわり
+
+quests.aet.market=AETマーケット
 
 
 tile.aet.sawmill.name=製材機
 multiblocked.recipe_map.sawmill=製材機
+tile.aet.chaos_reactor.name=カオス・リアクター
+multiblocked.recipe_map.chaos_reactor=カオス・リアクター
 

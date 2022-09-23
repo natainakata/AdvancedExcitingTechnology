@@ -1,7 +1,0 @@
-{
-	title: "{quests.aet.t1}",
-	icon: "dcs_climate:dcs_device_firestand",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

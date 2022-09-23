@@ -1,32 +1,382 @@
 {
-    "SampleRecipeID1 (Any string.)": {
-        "recipe_type": "ADD",
-        "output": {
-            "item": "samplemod:sample_output:metadata (removable)"
-        },
-        "output_fluid": {
-            "amount": 1000,
-            "fluid": "sample_fluid_output (removable)"
-        },
-        "input_fluid": {
-            "amount": 1000,
-            "fluid": "sample_fluid_input (removable)"
-        },
-        "input": [
-            "samplemod:sample_output:0",
-            "ore_dict name is acceptable as input.",
-            "Up to 3 inputs can be added."
-        ],
-        "comment": "At a minimum, either an item or a fluid is required for input."
+  "SampleRecipeID1 (Any string.)": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "samplemod:sample_output:metadata (removable)"
     },
-    "SampleRecipeID2": {
-        "recipe_type": "REMOVE",
-        "input": {
-            "item": "samplemod:remove_input:0"
-        },
-        "input_fluid": {
-            "amount": 500,
-            "fluid": "sample_fluid_input (removable)"
-        }
+    "output_fluid": {
+      "amount": 1000,
+      "fluid": "sample_fluid_output (removable)"
+    },
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "sample_fluid_input (removable)"
+    },
+    "input": [
+      "samplemod:sample_output:0",
+      "ore_dict name is acceptable as input.",
+      "Up to 3 inputs can be added."
+    ],
+    "comment": "At a minimum, either an item or a fluid is required for input."
+  },
+  "SampleRecipeID2": {
+    "recipe_type": "REMOVE",
+    "input": {
+      "item": "samplemod:remove_input:0"
+    },
+    "input_fluid": {
+      "amount": 500,
+      "fluid": "sample_fluid_input (removable)"
     }
+  },
+  "IronBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 432,
+      "fluid": "wine_iron"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_iron"
+    }
+  },
+  "IronBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_iron"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_iron"
+    }
+  },
+  "CopperBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_copper"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_copper"
+    }
+  },
+  "CopperBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_copper"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_copper"
+    }
+  },
+  "TinBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_tin"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_tin"
+    }
+  },
+  "TinBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_tin"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_tin"
+    }
+  },
+  "ZincBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_zinc"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_zinc"
+    }
+  },
+  "ZincBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_zinc"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_zinc"
+    }
+  },
+  "MagnetiteBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_magnetite"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_magnetite"
+    }
+  },
+  "MagnetiteBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_magnetite"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_magnetite"
+    }
+  },
+  "GoldBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_gold"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_gold"
+    }
+  },
+  "GoldBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_gold"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_gold"
+    }
+  },
+  "AluminumBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_aluminum"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_aluminum"
+    }
+  },
+  "AluminumBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_aluminum"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_aluminum"
+    }
+  },
+  "NickelBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_nickel"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_nickel"
+    }
+  },
+  "NickelBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_nickel"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_nickel"
+    }
+  },
+  "LeadBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_lead"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_lead"
+    }
+  },
+  "LeadBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_lead"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_lead"
+    }
+  },
+  "SilverBrewTier1": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 472,
+      "fluid": "wine_silver"
+    },
+    "input": [
+      "containerGrape"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_silver"
+    }
+  },
+  "SilverBrewTier3": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "dcs_climate:dcs_food_residue:2"
+    },
+    "output_fluid": {
+      "amount": 720,
+      "fluid": "wine_silver"
+    },
+    "input": [
+      "containerGrape",
+      "dcs_climate:dcs_food_microbe_yeast:1"
+    ],
+    "input_fluid": {
+      "amount": 1000,
+      "fluid": "juice_silver"
+    }
+  }
 }

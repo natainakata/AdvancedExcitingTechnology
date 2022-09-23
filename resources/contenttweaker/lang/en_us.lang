@@ -1,0 +1,25 @@
+tile.contenttweaker.dustblock_electrum.name=Electrum Dust Block
+tile.contenttweaker.dustblock_constantan.name=Constantan Dust Block
+
+fluid.juice_copper=Copper Juice
+fluid.wine_copper=Copper Wine
+fluid.juice_tin=Tin Juice
+fluid.wine_tin=Tin Wine
+fluid.juice_iron=Iron Juice
+fluid.wine_iron=Iron Wine
+fluid.juice_zinc=Zinc Juice
+fluid.wine_zinc=Zinc Wine
+fluid.juice_magnetite=Magnetite Juice
+fluid.wine_magnetite=Magnetite WIne
+fluid.juice_aluminum=Aluminum Juice
+fluid.wine_aluminum=Aluminum Wine
+fluid.juice_nickel=Nickel Juice
+fluid.wine_nickel=Nickel Wine
+fluid.juice_gold=Gold Juice
+fluid.wine_gold=Gold Wine
+fluid.juice_lead=Lead Juice
+fluid.wine_lead=Lead Wine
+fluid.juice_silver=Silver Juice
+fluid.wine_silver=Silver Wine
+
+item.contenttweaker.dcs_color_ring2.name=Blue Gold Ring

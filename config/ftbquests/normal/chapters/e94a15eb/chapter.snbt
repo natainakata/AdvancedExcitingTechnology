@@ -1,7 +1,0 @@
-{
-	title: "{quests.aet.end}",
-	icon: "storagedrawers:upgrade_creative 1 1",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
