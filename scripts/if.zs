@@ -16,4 +16,4 @@ recipes.addShaped(<teslacorelib:machine_case>,
   ]
 );
 
-
+print("------- Industrial Foregoing End -------");

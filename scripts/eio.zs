@@ -2,6 +2,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.ctintegration.util.RecipePattern;
+
+import scripts.NataiLib;
 
 print("------- EnderIO Start -------");
 
@@ -15,3 +18,15 @@ recipes.addShaped(<enderio:item_material>,
 );
 
 // recipes.addShaped(<enderio:item_yeta_wrench>)
+
+NataiLib.replaceShaped(<enderio:item_yeta_wrench>, RecipePattern.init([
+  "I I",
+  " G ",
+  " I "
+]).map({
+  'I': iron,
+  'G': stoneGear
+}).ingredients, null, null);
+
+
+print("------- EnderIO End -------");

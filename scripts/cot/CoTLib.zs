@@ -13,6 +13,8 @@ import mods.contenttweaker.Color;
 
 import crafttweaker.world.IBlockAccess;
 
+print("--------- CoT Library Start ---------");
+
 function addBlock(id as string, material as BlockMaterial, hardness as float, resistance as float, toolClass as string, toolLevel as int, soundType as SoundType) {
   var block = VanillaFactory.createBlock(id, material);
   block.setBlockHardness(hardness);
@@ -47,3 +49,5 @@ function addItem(id as string) {
   VanillaFactory.createItem(id).register();
 }
 
+
+print("--------- CoT Library End ---------");

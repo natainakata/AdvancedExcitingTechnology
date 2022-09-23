@@ -24,3 +24,5 @@ for liquid, dict in oreMat {
   squeezer.addRecipe(null, liquid[0] * 1000, dict, 2048);
   mixer.addRecipe(liquid[2] * 144, liquid[1] * 144, [<ore:dcsDrop>], 2048);
 }
+
+print("------- Ore Brewing Processing End -------");

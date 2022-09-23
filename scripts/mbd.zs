@@ -1,3 +1,12 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+import scripts.NataiLib;
+
+print("------- MultiBlockd Start -------");
+
 recipes.addShaped(<aet:sawmill>,
   [
     [steel, steel, steel],
@@ -5,3 +14,5 @@ recipes.addShaped(<aet:sawmill>,
     [steel, steel, steel]
   ]
 );
+
+print("------- MultiBlockd End -------");

@@ -10,6 +10,8 @@ import mods.ctintegration.baubles.IBaubleInventory;
 
 import scripts.cot.CoTLib;
 
+print("--------- CoT Tool Start ---------");
+
 var ringGoldBlue = VanillaFactory.createBaubleItem("dcs_color_ring2");
 ringGoldBlue.onWornTick = function(bauble, wearer) {
 	if(wearer instanceof IPlayer) {
@@ -22,3 +24,6 @@ ringGoldBlue.onWornTick = function(bauble, wearer) {
 };
 ringGoldBlue.baubleType = "RING";
 ringGoldBlue.register();
+
+
+print("--------- CoT Tool End ---------");

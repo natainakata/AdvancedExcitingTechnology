@@ -17,3 +17,6 @@ recipes.addShapeless(<minecraft:stone_slab>, [<undergroundbiomes:igneous_stone_h
 recipes.addShapeless(<minecraft:stone_slab>, [<undergroundbiomes:metamorphic_stone_halfslab:*>]);
 
 mods.botania.PureDaisy.addRecipe(<ore:stone>, <botania:livingrock>);
+
+
+print("--------- Underground Biomes End ---------");

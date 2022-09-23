@@ -17,3 +17,5 @@ function replaceShaped(output as IItemStack, input as IIngredient[][], recipeFun
   recipes.remove(output);
   recipes.addShaped(output, input, recipeFunction, recipeAction);
 }
+
+print("------- Natai Lib End -------");

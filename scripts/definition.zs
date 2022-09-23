@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+print("------- Definition Process Start -------");
+
 // material
 
 global wood               as IOreDictEntry = <ore:plankWood>;
@@ -11,6 +13,10 @@ global woodLog            as IOreDictEntry = <ore:logWood>;
 global woodStick          as IIngredient   = <ore:stickWood> | <ore:stickTreatedWood>;
 global woodGear           as IOreDictEntry = <ore:gearWood>;
 global woodSlab           as IOreDictEntry = <ore:slabWood>;
+
+global stone              as IOreDictEntry = <ore:stone>;
+global cobblestone        as IOreDictEntry = <ore:cobblestone>;
+global stoneGear          as IOreDictEntry = <ore:gearStone>;
 
 global stringO            as IOreDictEntry = <ore:string>;
 
@@ -139,3 +145,5 @@ for i in 5 to 9 {
 for i in 10 to 14 {
   dcsMasterSpellDict.add(dcsSpellDef.makeStack(i));
 }
+
+print("------- Definition Process End -------");

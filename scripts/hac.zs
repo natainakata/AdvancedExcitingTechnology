@@ -6,8 +6,6 @@ import mods.jei.JEI as jei;
 
 print("------- Heat And Climate Start -------");
 
-
-
 // repeir ore dict
 recipes.remove(<dcs_climate:dcs_repair>);
 recipes.addShapeless(<dcs_climate:dcs_repair>, [<ore:slimeball>, <ore:dustIron>]);
@@ -129,3 +127,5 @@ recipes.addShaped(<contenttweaker:dcs_color_ring2>,
     [ null, gold, null ]
   ]
 );
+
+print("------- Heat And Climate Start -------");
