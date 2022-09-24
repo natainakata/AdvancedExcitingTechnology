@@ -2,21 +2,25 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.ctintegration.util.RecipePattern;
+
+import scripts.NataiLib;
 
 print("------- Actually Additions Start -------");
 
 // reconstructor and casing modify
-recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
-recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>,
-  [
-    [ redstone, copperWire, redstone ],
-    [ <ore:gemQuartzBlack>, <teslacorelib:machine_case>, copperWire ],
-    [ redstone, copperWire, redstone ]
-  ]
-);
+NataiLib.replaceShaped(<actuallyadditions:block_atomic_reconstructor>, RecipePattern.init([
+  "RCR",
+  "BMC",
+  "RCR"
+  ]).map({
+    R: redstone,
+    C: copperWire,
+    B: blackquartz,
+    M: machineCase
+  }).ingredients, null, null);
 
-recipes.remove(<actuallyadditions:block_misc:9>);
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<actuallyadditions:block_misc:9>, <teslacorelib:machine_case>, 2000);
-
+recipes.remove(crystalizedCase);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(crystalizedCase, machineCase, 2000);
 
 print("------- Actually Additions End -------");

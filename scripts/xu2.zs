@@ -5,22 +5,28 @@ import crafttweaker.oredict.IOreDictEntry;
 import extrautilities2.Tweaker.IMachine;
 import extrautilities2.Tweaker.IMachineRegistry;
 import extrautilities2.Tweaker.IMachineSlot;
+import mods.ctintegration.util.RecipePattern;
+
+import scripts.NataiLib;
 
 print("------- Extra Utilities 2 Start -------");
 
 // harder resonator
-recipes.remove(<extrautils2:resonator>);
-recipes.addShaped(<extrautils2:resonator>,
-  [
-    [ redstone, coalBlock, redstone ],
-    [ steel, <extrautils2:ingredients>, steel ],
-    [ steel, steel, steel ]
-  ]
-);
+val resoRedstone = <extrautils2:ingredients>;
+NataiLib.replaceShaped(<extrautils2:resonator>, RecipePattern.init([
+  "RCR",
+  "S#S",
+  "SSS"
+  ]).map({
+    R: redstone,
+    C: coalBlock,
+    '#': resoRedstone,
+    S: steel
+    }).ingredients, null, null);
 
 // base Modify
 recipes.removeByRecipeName("extrautils2:machine_base");
-mods.extrautils2.Resonator.add(<extrautils2:machine>, <teslacorelib:machine_case>, 200);
+mods.extrautils2.Resonator.add(resonatedCase, machineCase, 200);
 
 // harder suvival generator
 recipes.removeByRecipeName("extrautils2:generator_survivalist");

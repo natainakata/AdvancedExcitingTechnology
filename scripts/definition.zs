@@ -1,3 +1,6 @@
+/*
+  頻繁に使用するBracket Handlerの定義ファイル
+*/
 #priority 100
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -13,6 +16,7 @@ global woodLog            as IOreDictEntry = <ore:logWood>;
 global woodStick          as IIngredient   = <ore:stickWood> | <ore:stickTreatedWood>;
 global woodGear           as IOreDictEntry = <ore:gearWood>;
 global woodSlab           as IOreDictEntry = <ore:slabWood>;
+global chest              as IOreDictEntry = <ore:chest>;
 
 global stone              as IOreDictEntry = <ore:stone>;
 global cobblestone        as IOreDictEntry = <ore:cobblestone>;
@@ -20,9 +24,12 @@ global stoneGear          as IOreDictEntry = <ore:gearStone>;
 
 global stringO            as IOreDictEntry = <ore:string>;
 
+global slimeball          as IOreDictEntry = <ore:slimeball>;
+
 global coalBlock          as IOreDictEntry = <ore:blockCoal>;
 
 global iron               as IOreDictEntry = <ore:ingotIron>;
+global ironDust           as IOreDictEntry = <ore:dustIron>;
 global ironOre            as IOreDictEntry = <ore:oreIron>;
 global ironJuice          as ILiquidStack  = <liquid:juice_iron>;
 global ironWine           as ILiquidStack  = <liquid:wine_iron>;
@@ -94,6 +101,12 @@ global steelGear          as IOreDictEntry = <ore:gearSteel>;
 global steelStick         as IOreDictEntry = <ore:stickSteel>;
 
 global crystalDust        as IOreDictEntry = <ore:dustCrystal>;
+
+global blackquartz        as IOreDictEntry = <ore:gemQuartzBlack>;
+
+global machineCase        as IItemStack = <teslacorelib:machine_case>;
+global crystalizedCase    as IItemStack = <actuallyadditions:block_misc:9>;
+global resonatedCase      as IItemStack = <extrautils2:machine>;
 
 global redDrop            as IOreDictEntry = <ore:dropRed>;
 global blueDrop           as IOreDictEntry = <ore:dropBlue>;
