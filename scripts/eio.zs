@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 
+import scripts.NataiLib;
+
 print("------- EnderIO Start -------");
 
 recipes.removeByRecipeName("enderio:simple_chassis");
@@ -14,4 +16,10 @@ recipes.addShaped(<enderio:item_material>,
   ]
 );
 
-// recipes.addShaped(<enderio:item_yeta_wrench>)
+NataiLib.replaceShaped(<enderio:item_yeta_wrench>, 
+  [
+    [iron, null, iron],
+    [null, stoneGear, null],
+    [null, iron, null]
+  ], null, null
+);

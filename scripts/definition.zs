@@ -12,6 +12,9 @@ global woodStick          as IIngredient   = <ore:stickWood> | <ore:stickTreated
 global woodGear           as IOreDictEntry = <ore:gearWood>;
 global woodSlab           as IOreDictEntry = <ore:slabWood>;
 
+global stone              as IOreDictEntry = <ore:stone>;
+global stoneGear          as IOreDictEntry = <ore:gearStone>;
+
 global stringO            as IOreDictEntry = <ore:string>;
 
 global coalBlock          as IOreDictEntry = <ore:blockCoal>;
