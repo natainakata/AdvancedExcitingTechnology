@@ -83,13 +83,24 @@ global silverMolten       as ILiquidStack  = <liquid:silver>;
 global bronze             as IOreDictEntry = <ore:ingotBronze>;
 global bronzeGear         as IOreDictEntry = <ore:gearBronze>;
 
-global redstone           as IItemStack    = <minecraft:redstone>;
-
 global steel              as IOreDictEntry = <ore:ingotSteel>;
 global steelPlate         as IOreDictEntry = <ore:plateSteel>;
 global steelGear          as IOreDictEntry = <ore:gearSteel>;
 global steelStick         as IOreDictEntry = <ore:stickSteel>;
 
+global electrum           as IOreDictEntry = <ore:ingotElectrum>;
+global electrumWire       as IItemStack    = <immersiveengineering:wirecoil:1>;
+
+global nickelsilver       as IOreDictEntry = <ore:ingotNickelsilver>;
+global alloyGear          as IOreDictEntry = <ore:gearAlloy>;
+
+global coldsteel          as IOreDictEntry = <ore:ingotColdsteel>;
+global coldsteelPlate     as IOreDictEntry = <ore:plateColdsteel>;
+
+global heatsteel          as IOreDictEntry = <ore:ingotHeatsteel>;
+global heatsteelPlate     as IOreDictEntry = <ore:plateHeatsteel>;
+
+global redstone           as IItemStack    = <minecraft:redstone>;
 global crystalDust        as IOreDictEntry = <ore:dustCrystal>;
 
 global redDrop            as IOreDictEntry = <ore:dropRed>;

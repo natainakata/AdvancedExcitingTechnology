@@ -3,6 +3,8 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
 import scripts.cot.CoTLib;
 
 
@@ -34,3 +36,22 @@ for id, color in oreFluid {
   CoTLib.addFluid("juice_" + id, color[0]);
   CoTLib.addFluid("wine_" + id, color[1]);
 }
+
+// metal variants
+val alloys = {
+  Coldsteel : 0x6E87B5,
+  Heatsteel : 0xC94736
+} as int[string];
+
+val partNames = ["dust", "gear", "plate", "nugget", "ingot"] as string[];
+for id, color in alloys {
+  val mat = CoTLib.addMaterial(id, color, false);
+  mat.registerParts(partNames);
+  val blockData = mat.registerPart("block").getData();
+  blockData.addDataValue("hardness", "5");
+  blockData.addDataValue("resistance", "30");
+  blockData.addDataValue("harvestTool", "pickaxe");
+  blockData.addDataValue("harvestLevel", "1");
+}
+
+

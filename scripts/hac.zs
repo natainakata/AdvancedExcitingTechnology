@@ -3,10 +3,9 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI as jei;
+import scripts.NataiLib;
 
 print("------- Heat And Climate Start -------");
-
-
 
 // repeir ore dict
 recipes.remove(<dcs_climate:dcs_repair>);
@@ -119,6 +118,15 @@ recipes.addShaped(<dcs_climate:dcs_device_conveyor> * 8,
     [ null, null, null ]
   ]
 );
+
+// harder exchanger
+val dcsFan = <dcs_climate:dcs_device_fan>;
+NataiLib.replaceShaped(<dcs_climate:dcs_device_heat_exchanger>, 
+  [
+    [electrumWire, electrumWire, electrumWire],
+    [alloyGear, dcsFan, alloyGear],
+    [coldsteelPlate, coldsteelPlate, coldsteelPlate]
+  ], null, null);
 
 // fix blue gold ring
 jei.removeAndHide(<dcs_climate:dcs_color_ring2:0>);

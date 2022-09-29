@@ -1,25 +1,24 @@
 {
   "SampleRecipeID1 (Any string.)": {
-      "recipe_type": "ADD",
-      "output": {
-          "item": "samplemod:sample_output:metadata"
-      },
-      "climate_temperature": "KILN (If this is removed, it will be forced to NORMAL.)",
-      "climate_humidity": "DRY (If this is removed, it will be unspecified.)",
-      "climate_airflow": "TIGHT (If this is removed, it will be unspecified.)",
-      "input": {
-          "ore_dict": "ore_dict name is acceptable as input."
-      }
+    "recipe_type": "ADD",
+    "output": {
+      "item": "samplemod:sample_output:metadata"
+    },
+    "climate_temperature": "KILN (If this is removed, it will be forced to NORMAL.)",
+    "climate_humidity": "DRY (If this is removed, it will be unspecified.)",
+    "climate_airflow": "TIGHT (If this is removed, it will be unspecified.)",
+    "input": {
+      "ore_dict": "ore_dict name is acceptable as input."
+    }
   },
   "SampleRecipeID2": {
-      "recipe_type": "REMOVE",
-      "output": {
-          "item": "samplemod:remove_output:0"
-      },
-      "climate_temperature": "COLD",
-      "climate_humidity": "WET"
+    "recipe_type": "REMOVE",
+    "output": {
+      "item": "samplemod:remove_output:0"
+    },
+    "climate_temperature": "COLD",
+    "climate_humidity": "WET"
   },
-
   "smelt_constantan": {
     "recipe_type": "ADD",
     "output": {
@@ -40,6 +39,28 @@
     "climate_airflow": "TIGHT",
     "input": {
       "item": "contenttweaker:dustblock_electrum"
+    }
+  },
+  "heat_infusion": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "contenttweaker:material_part:16"
+    },
+    "climate_temperature": "SMELTING",
+    "climate_airflow": "TIGHT",
+    "input": {
+      "ore_dict": "ingotSteel"
+    }
+  },
+  "cold_infusion": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "contenttweaker:material_part:22"
+    },
+    "climate_temperature": "COLD",
+    "climate_airflow": "FLOW",
+    "input": {
+      "ore_dict": "ingotSteel"
     }
   }
 }

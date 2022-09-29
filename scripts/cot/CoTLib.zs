@@ -10,6 +10,9 @@ import mods.contenttweaker.BlockState;
 import mods.contenttweaker.BlockPos;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
+import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Material;
 
 import crafttweaker.world.IBlockAccess;
 
@@ -47,3 +50,19 @@ function addItem(id as string) {
   VanillaFactory.createItem(id).register();
 }
 
+function addItemColored(id as string, color as int, texture as string) {
+  val item = VanillaFactory.createItem(id);
+  item.itemColorSupplier = function(item, tintIndex) {
+    return Color.fromInt(color);
+  };
+  item.textureLocation = ResourceLocation.create(texture);
+  item.register();
+}
+
+function addMaterial(id as string, color as int, effect as bool) as Material {
+  val material = MaterialSystem.getMaterialBuilder();
+  material.setName(id);
+  material.setColor(Color.fromInt(color));
+  material.setHasEffect(effect); 
+  return material.build();
+}

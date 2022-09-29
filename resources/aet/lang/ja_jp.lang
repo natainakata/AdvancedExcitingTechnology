@@ -75,34 +75,43 @@ quests.aet.tool.chalcedony=超ピーキー
 quests.aet.tool.brass=上向くんだよ90°
 quests.aet.tool.melter=簡易溶融
 quests.aet.tool.smeltery=溶鉱炉に沈む
-quests.aet.tool.knightslime=スライムの騎士
-quests.aet.tool.manyullyn=単品だといっちゃん強い？
-quests.aet.tool.alubrass=互換性なし
-quests.aet.tool.pigiron=銑鉄？？？？
 quests.aet.tool.toolforge=ブラックスミステーブル
-quests.aet.tool.shuriken=鋼鉄の星
-quests.aet.tool.lumberaxe=一括破壊キーを離そう
-quests.aet.tool.cleaver=首を置いてけ！なあ！
-quests.aet.tool.hammer=石掘り名人
-quests.aet.tool.excavator=土掘り達人
-quests.aet.tool.crossbow=ピリジャーの獲物
-quests.aet.tool.scythe=死神の鎌
-quests.aet.tool.sceptre=マジカルワンド
 quests.aet.tool.chisel=彫刻ソード
 quests.aet.tool.scythe=隣の芝刈り
 
 quests.aet.food=農業・料理
 quests.aet.food.awesome=おーさむ ふーず
+quests.aet.food.meat=タンパク質
+quests.aet.food.veggie=やさしいせかい
+quests.aet.food.spices=調味料
+quests.aet.food.grain=ビタミン ミネラル 食物繊維
+quests.aet.food.greenveggie=はっぱカッター
+quests.aet.food.fruits=水分たっぷり
 
 quests.aet.food.hac=気難しい作物
 quests.aet.food.dispenser=レッドストーン式収穫機構
 quests.aet.food.entityfood=エンティティモデル
+quests.aet.food.hacseedoil=もこ○ちの体液
+quests.aet.food.fluidrecipes=鍋、フライパン、急須
+quests.aet.food.advancedpot=万能調理鍋
+quests.aet.food.brewing=醸造設備
+quests.aet.food.advancedbrew=結構早くなる
+quests.aet.food.still=蒸留器
+quests.aet.food.hacbarrel=時間をかけて熟成
+quests.aet.food.soupstock=耐火スープ
+quests.aet.food.beer=ビール！ビール！
+quests.aet.food.wine=エレガント
 
 quests.aet.food.vanilla=おなじみ
+quests.aet.food.bread=ケーキが無いならパンを食え
 
 quests.aet.food.modded=追加戦士
 
 quests.aet.food.rustic=お酒やお薬
+quests.aet.food.condenser=序盤のポーション
+quests.aet.food.advancedcondenser=ラストエリクサー症候群
+quests.aet.food.crushingtub=足踏み
+quests.aet.food.rusticbrew=亜流：酒造技術
 
 
 quests.aet.utils=ユーティリティ
@@ -112,6 +121,11 @@ quests.aet.utils.drawer=亜空間引き出し
 quests.aet.utils.lowchest=二倍お得
 quests.aet.utils.littlemaid=ちいさい従者
 quests.aet.utils.souvenir=メイドより舞い戻る
+quests.aet.utils.paperpack=紙バケツ
+quests.aet.utils.waterpack=超簡易ポーション
+quests.aet.utils.claybucket=陶器のバケツ
+quests.aet.utils.bucket=バケツテンプレ
+
 
 quests.aet.t1=HaC:T1
 quests.aet.t1.start=バニラを脱出せよ
@@ -150,6 +164,7 @@ quests.aet.t2.hacwatermill=水車その1
 quests.aet.t2.largewindmill=風車小屋から強奪せよ
 quests.aet.t2.stonemill=1鉱石が2インゴットに
 quests.aet.t2.conveyorfurnace=ライン精錬
+quests.aet.t2.climatesteel=気候注入
 
 quests.aet.eio=Ender IO
 quests.aet.eio.infinity=岩盤で焚き火
