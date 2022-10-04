@@ -1,3 +1,4 @@
+quests.aet.update=クエストブック更新
 quests.aet.beginning=はじまり
 quests.aet.beginning.welcome=Advanced Exciting Technologyへようこそ
 quests.aet.beginning.welcome.desc=Advanced Exciting Technologyをダウンロードして頂きありがとうございます。このMODPACKはHeat and Climate(HaC)を中心に工業、魔術modがいくつか導入されています。
@@ -106,6 +107,7 @@ quests.aet.food.vanilla=おなじみ
 quests.aet.food.bread=ケーキが無いならパンを食え
 
 quests.aet.food.modded=追加戦士
+quests.aet.food.hemp=麻の繊維
 
 quests.aet.food.rustic=お酒やお薬
 quests.aet.food.condenser=序盤のポーション
@@ -165,6 +167,10 @@ quests.aet.t2.largewindmill=風車小屋から強奪せよ
 quests.aet.t2.stonemill=1鉱石が2インゴットに
 quests.aet.t2.conveyorfurnace=ライン精錬
 quests.aet.t2.climatesteel=気候注入
+quests.aet.t2.electrum=ポケットモンスター金・銀
+quests.aet.t2.heatexchanger=エアコン
+quests.aet.t2.raremetal=希少金属
+quests.aet.t2.highalloy=上級合金
 
 quests.aet.eio=Ender IO
 quests.aet.eio.infinity=岩盤で焚き火
@@ -180,6 +186,11 @@ quests.aet.imm.dynamo=回転発電の付け根
 quests.aet.imm.iewatermill=水車その2
 quests.aet.imm.iewindmill=風車その2
 quests.aet.imm.lvcapacitor=低圧バッテリー
+quests.aet.imm.lvwire=鳥が留まる場所
+quests.aet.imm.parts=機械部品
+quests.aet.imm.circuit=電子回路
+quests.aet.imm.engineerblock=メカニカル・システム
+quests.aet.imm.metalpress=自動加工
 
 quests.aet.extras=Machine Extras
 quests.aet.extras.machinecase=機械のガワ

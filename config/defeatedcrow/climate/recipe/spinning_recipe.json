@@ -15,5 +15,16 @@
         "input": {
             "item": "samplemod:remove_input:0"
         }
+    },
+  "ToughFabric": {
+    "recipe_type": "ADD",
+    "output": {
+      "item": "immersiveengineering:material:5",
+      "count": 1
+    },
+    "input": {
+      "ore_dict": "fiberHemp",
+      "count": 4
     }
+  }
 }
