@@ -26,6 +26,7 @@ usernamecache.json
 *.bak
 .curseclient
 /config/enderio/recipes/*.pdf
+/config/MaidVillagerZW*
 /resources/minecraft/sounds.json
 /.mixin.out/
 zs_export.json

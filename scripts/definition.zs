@@ -153,3 +153,29 @@ for i in 5 to 9 {
 for i in 10 to 14 {
   dcsMasterSpellDict.add(dcsSpellDef.makeStack(i));
 }
+
+// tool oredict
+val dcsChalcedonyToolDict = <ore:dcsChalcedonyTool>;
+val dcsChalcedonyTools = [
+ <dcs_climate:dcs_spade_chalcedony>,
+ <dcs_climate:dcs_scythe_chalcedony>,
+ <dcs_climate:dcs_sword_chalcedony>,
+ <dcs_climate:dcs_axe_chalcedony>,
+ <dcs_climate:dcs_pickaxe_chalcedony>,
+] as IItemStack[];
+val dcsBrassToolDict = <ore:dcsBrassTool>;
+val dcsBrassTools = [
+  <dcs_climate:dcs_axe_brass>,
+  <dcs_climate:dcs_scythe_brass>,
+  <dcs_climate:dcs_pickaxe_brass>,
+  <dcs_climate:dcs_spade_brass>,
+  <dcs_climate:dcs_sword_brass>,
+] as IItemStack[];
+
+for chalcedonytool in dcsChalcedonyTools {
+  dcsChalcedonyToolDict.add(chalcedonytool);
+}
+
+for brasstool in dcsBrassTools {
+  dcsBrassToolDict.add(brasstool);
+}

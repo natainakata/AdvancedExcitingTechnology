@@ -1,4 +1,5 @@
 {
+  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -259,17 +260,21 @@
       },
       "tasks:9": {
         "0:10": {
-          "blocks:9": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "amount:3": 16,
-              "blockID:8": "minecraft:log",
-              "meta:3": 0,
-              "nbt:10": {},
-              "oreDict:8": "logWood"
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "logWood",
+              "id:8": "minecraft:log"
             }
           },
-          "index:3": 0,
-          "taskID:8": "bq_standard:block_break"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -5702,7 +5707,25 @@
       },
       "questID:3": 92,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "dcsBrassTool",
+              "id:8": "dcs_climate:dcs_pickaxe_brass"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "93:10": {
       "preRequisites:11": [
@@ -5736,7 +5759,25 @@
       },
       "questID:3": 93,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "dcsChalcedonyTool",
+              "id:8": "dcs_climate:dcs_pickaxe_chalcedony"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "94:10": {
       "preRequisites:11": [
@@ -5776,11 +5817,11 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 4,
-              "Damage:2": 1,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "forestry:can",
+              "id:8": "ceramics:clay_bucket",
               "tag:10": {
-                "Fluid:10": {
+                "fluids:10": {
                   "Amount:3": 1000,
                   "FluidName:8": "lava"
                 }
@@ -8199,7 +8240,25 @@
       },
       "questID:3": 133,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:bread"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "134:10": {
       "preRequisites:11": [
@@ -10404,26 +10463,6 @@
       }
     },
     "9:10": {
-      "lineID:3": 9,
-      "order:3": 11,
-      "properties:10": {
-        "betterquesting:10": {
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "No Description",
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "forestry:sturdy_machine"
-          },
-          "name:8": "quests.aet.ffm",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "quests:9": {}
-    },
-    "10:10": {
       "lineID:3": 10,
       "order:3": 2,
       "properties:10": {
@@ -10500,7 +10539,7 @@
         }
       }
     },
-    "11:10": {
+    "10:10": {
       "lineID:3": 11,
       "order:3": 3,
       "properties:10": {
