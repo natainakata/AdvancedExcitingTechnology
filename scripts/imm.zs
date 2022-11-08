@@ -42,4 +42,5 @@ recipes.addShaped(<contenttweaker:dustblock_constantan>,
 recipes.addShapeless(<immersiveengineering:metal:16> * 9, [<contenttweaker:dustblock_electrum>]);
 recipes.addShapeless(<immersiveengineering:metal:15> * 9, [<contenttweaker:dustblock_constantan>]);
 
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:spindle_bronze>, bronze * 4, <immersiveengineering:mold:1>, 2000);
 

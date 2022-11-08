@@ -44,7 +44,7 @@
   "heat_infusion": {
     "recipe_type": "ADD",
     "output": {
-      "item": "contenttweaker:material_part:16"
+      "item": "contenttweaker:material_part:4"
     },
     "climate_temperature": "SMELTING",
     "climate_airflow": "TIGHT",
@@ -55,7 +55,7 @@
   "cold_infusion": {
     "recipe_type": "ADD",
     "output": {
-      "item": "contenttweaker:material_part:22"
+      "item": "contenttweaker:material_part:10"
     },
     "climate_temperature": "COLD",
     "climate_airflow": "FLOW",

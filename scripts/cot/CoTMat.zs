@@ -54,4 +54,10 @@ for id, color in alloys {
   blockData.addDataValue("harvestLevel", "1");
 }
 
+val nothingsmat = {
+  bronze : 0xA35F16
+} as int[string];
 
+for id, color in nothingsmat {
+  CoTLib.addItemColored("spindle_" + id, color, "dcs_climate:items/misc/spindle_toolsteel");
+}

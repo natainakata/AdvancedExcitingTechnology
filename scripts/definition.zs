@@ -82,6 +82,7 @@ global silverMolten       as ILiquidStack  = <liquid:silver>;
 
 global bronze             as IOreDictEntry = <ore:ingotBronze>;
 global bronzeGear         as IOreDictEntry = <ore:gearBronze>;
+bronzeGear.add(<contenttweaker:spindle_bronze>);
 
 global steel              as IOreDictEntry = <ore:ingotSteel>;
 global steelPlate         as IOreDictEntry = <ore:plateSteel>;

@@ -8764,7 +8764,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 16,
+            "Damage:2": 4,
             "OreDict:8": "",
             "id:8": "contenttweaker:material_part"
           },
@@ -8796,14 +8796,14 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 16,
-              "OreDict:8": "",
+              "Damage:2": 4,
+              "OreDict:8": "ingotHeatsteel",
               "id:8": "contenttweaker:material_part"
             },
             "1:10": {
-              "Count:3": 3,
-              "Damage:2": 22,
-              "OreDict:8": "",
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": "ingotColdsteel",
               "id:8": "contenttweaker:material_part"
             }
           },

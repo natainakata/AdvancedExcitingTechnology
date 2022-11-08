@@ -1,16 +1,16 @@
 {
   "materialMappings": {
-    "heatsteel_nugget": 15,
-    "coldsteel_nugget": 21,
-    "coldsteel_dust": 18,
-    "coldsteel_gear": 19,
-    "heatsteel_ingot": 16,
-    "coldsteel_block": 23,
-    "coldsteel_plate": 20,
-    "heatsteel_dust": 12,
-    "coldsteel_ingot": 22,
-    "heatsteel_gear": 13,
-    "heatsteel_block": 17,
-    "heatsteel_plate": 14
+    "heatsteel_nugget": 3,
+    "coldsteel_nugget": 9,
+    "coldsteel_dust": 6,
+    "coldsteel_gear": 7,
+    "heatsteel_ingot": 4,
+    "coldsteel_block": 11,
+    "coldsteel_plate": 8,
+    "heatsteel_dust": 0,
+    "coldsteel_ingot": 10,
+    "heatsteel_gear": 1,
+    "heatsteel_block": 5,
+    "heatsteel_plate": 2
   }
 }

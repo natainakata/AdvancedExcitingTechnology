@@ -35,6 +35,20 @@ recipes.removeByRecipeName("dcs_climate:main/dcs_blaze_rod_0");
 // bronze to brass
 val shaft = <dcs_climate:dcs_device_shaft_s>;
 recipes.removeByRecipeName("dcs_climate:main/dcs_spindle_1_2");
+recipes.addShaped(<contenttweaker:spindle_bronze>, 
+  [
+    [ null, bronze, null ],
+    [ bronze, stoneGear, bronze ],
+    [ null, bronze, null ]
+  ]
+);
+recipes.addShaped(<contenttweaker:spindle_bronze>, 
+  [
+    [ null, bronze, null ],
+    [ bronze, woodGear, bronze ],
+    [ null, bronze, null ]
+  ]
+);
 
 recipes.removeByRecipeName("dcs_climate:machine/dcs_wrench_0_2");
 recipes.addShaped(<dcs_climate:dcs_wrench>,
