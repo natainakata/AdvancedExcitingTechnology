@@ -41,7 +41,7 @@ quests.aet.ore.bluematerial=セメントとごっちゃになりがち
 
 quests.aet.ore.greenvein=緑の鉱脈
 quests.aet.ore.greenore=珪クロム錫石
-quests.aet.ore.greengem=翠の輝石
+quests.aet.ore.greengem=翠の奇跡
 quests.aet.ore.greenmaterial=ピエール・ベルティエ(1782~1861)
 
 quests.aet.ore.whitevein=白の鉱脈
@@ -118,16 +118,15 @@ quests.aet.food.rusticbrew=亜流：酒造技術
 
 quests.aet.utils=ユーティリティ
 quests.aet.utils.awesome=おーさむ あいてむず
-quests.aet.utils.storage=押入れ
+quests.aet.utils.storage=島津
 quests.aet.utils.drawer=亜空間引き出し
 quests.aet.utils.lowchest=二倍お得
 quests.aet.utils.littlemaid=ちいさい従者
-quests.aet.utils.souvenir=メイドより舞い戻る
+quests.aet.utils.souvenir=冥土より舞い戻る
 quests.aet.utils.paperpack=紙バケツ
 quests.aet.utils.waterpack=超簡易ポーション
 quests.aet.utils.claybucket=陶器のバケツ
 quests.aet.utils.bucket=バケツテンプレ
-
 
 quests.aet.t1=HaC:T1
 quests.aet.t1.start=バニラを脱出せよ
@@ -212,8 +211,6 @@ quests.aet.extras.enchanter=魔導刻印装置
 quests.aet.extras.gridmill=GP生成装置
 quests.aet.extras.wireless=電磁誘導
 quests.aet.extras.xu2upgrade=強化パーツ
-
-quests.aet.ffm=Forestry
 
 quests.aet.t3=HaC:T3
 

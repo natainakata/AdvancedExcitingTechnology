@@ -1,14 +1,229 @@
+quests.aet.update=QuestBook Update
 quests.aet.beginning=Genesis
-quests.aet.tools=Artifacts Blacksmith
+quests.aet.beginning.welcome=Welcome to Advanced Exiting Technology!!
+quests.aet.beginning.climate=Climate System
+quests.aet.beginning.climate.check=Climate Sensor
+quests.aet.beginning.tree=Bare Hands Treechopper
+quests.aet.beginning.base=Crafting Roots
+quests.aet.beginning.charcoal=Challenge Climate Smelting
+quests.aet.beginning.tools=Blacksmith
+quests.aet.beginning.started=Beginning of the Journey
+
+quests.aet.ore=Ores
+quests.aet.ore.generation=Five Elements Ore Vein
+
+quests.aet.ore.iron=Basic Metal
+quests.aet.ore.gold=Find Mesa
+quests.aet.ore.coal=Fossil Fuel
+quests.aet.ore.diamond=Carbon Chank
+quests.aet.ore.emerald=Village Central Bank
+quests.aet.ore.lapis=Enchant Catalyst
+quests.aet.ore.redstone=Conductivity
+
+quests.aet.ore.redvein=Red Vein
+quests.aet.ore.redore=ChalBauxiganse
+quests.aet.ore.redgem=Vermillion Gift
+quests.aet.ore.redmaterial=KNO3
+
+quests.aet.ore.bluevein=Blue Vein
+quests.aet.ore.blueore=SphaGalaMuthinite
+quests.aet.ore.bluegem=Cerulean Bright
+quests.aet.ore.bluematerial=Not to be confused with cement.
+
+quests.aet.ore.greenvein=Green Vein
+quests.aet.ore.greenore=CassiGarMite
+quests.aet.ore.greengem=Earth Miracle
+quests.aet.ore.greenmaterial=Pierre Berthier(1782~1861)
+
+quests.aet.ore.whitevein=White Vein
+quests.aet.ore.whiteore=HemaGotile
+quests.aet.ore.whitegem=The Light
+quests.aet.ore.whitematerial=Himalayan Mountains
+
+quests.aet.ore.blackvein=Black Vein
+quests.aet.ore.blackore=Magendenite
+quests.aet.ore.blackgem=Deep of Dark
+quests.aet.ore.blackmaterial=From the Hot springs
+
+quests.aet.ore.skarn=Extra Large Vein
+
+quests.aet.tool=Tools
+quests.aet.tool.awesome=Awesome Tools
+quests.aet.tool.chalcedony=Sharp and Brittle
+quests.aet.tool.brass=Look up
+quests.aet.tool.melter=Simple Melter
+quests.aet.tool.smeltery=Terminator
+quests.aet.tool.toolforge=Blacksmith Forge
+quests.aet.tool.chisel=Sculpture Sword
+quests.aet.tool.scythe=That Grass Looks Greener
+
+quests.aet.world=Exploration
+quests.aet.world.overworld=Earth Structure
+quests.aet.world.meteor=One-person Escape Devices
+quests.aet.world.caravan=They are not unwanted guests.
+quests.aet.world.windmillhut=Early Game Shortcut
+quests.aet.world.onsen=Under the Farm
+quests.aet.world.slimeisland=Slime Laputa
+
+quests.aet.world.nether=World Under
+quests.aet.world.mazai=Seriously?
+quests.aet.world.blaze=French fries
+quests.aet.world.endereye=Guide Of Green Eyes
+quests.aet.world.theend=End of the World
+quests.aet.world.dragon=Envoy of the End
+
 quests.aet.food=One Way of Eating
-quests.aet.t1=Basic Technology
-quests.aet.t2=Advanced Technology
-quests.aet.t3=Modern Technology
-quests.aet.magic=Magic Theory
+quests.aet.food.awesome=Awesome foods
+quests.aet.food.meat=Protein
+quests.aet.food.veggie=Veggitable Life
+quests.aet.food.spices=Flavoring
+quests.aet.food.grain=Vitamins Minerals Dietary fiber
+quests.aet.food.greenveggie=Leaf Cutter
+quests.aet.food.fruits=Fresh!!
+
+quests.aet.food.hac=Hard Plants
+quests.aet.food.dispenser=Redstone Harvester
+quests.aet.food.entityfood=Entity Model Food
+quests.aet.food.hacseedoil=Olive Oil
+quests.aet.food.fluidrecipes=Pot,Skillet,Tea Pot
+quests.aet.food.advancedpot=Universal Pot
+quests.aet.food.brewing=Brew mechanism
+quests.aet.food.advancedbrew=Pretty Quick
+quests.aet.food.still=Distillation
+quests.aet.food.hacbarrel=Long Long Mature
+quests.aet.food.soupstock=Fire Resist Soup
+quests.aet.food.beer=Beer!Beer!
+quests.aet.food.wine=Elegant…
+
+quests.aet.food.vanilla=Basic Food
+quests.aet.food.bread=If you don't have Cake, have Bread.
+
+quests.aet.food.modded=Addition Food Fighter
+quests.aet.food.hemp=Hemp Fiber
+
+quests.aet.food.rustic=Rustic
+quests.aet.food.condenser=Early Game Potion
+quests.aet.food.advancedcondenser=Megalixir Syndrome
+quests.aet.food.crushingtub=Foot Press
+quests.aet.food.rusticbrew=Alternative Brewing
+
+quests.aet.utils=Utilities
+quests.aet.utils.storage=§oShimadsu§r chest
+quests.aet.utils.drawer=Wormhole Drawer
+quests.aet.utils.lowchest=2x Extend
+quests.aet.utils.littlemaid=Little Servant
+quests.aet.utils.souvenir=Return from §oLi-ttle-mbo§r
+quests.aet.utils.paperpack=Paper Bucket
+quests.aet.utils.waterpack=Instant Potion
+quests.aet.utils.claybucket=Ceramic Bucket
+quests.aet.utils.bucket=Bucket Archtype
+
+quests.aet.t1=HaC:T1
+quests.aet.t1.start=Escape Vanilla
+quests.aet.t1.woodgear=Spinning Mechanism
+quests.aet.t1.mortar=Grinding down
+quests.aet.t1.copper=Recently Add Vanilla
+quests.aet.t1.bronze=Third best
+quests.aet.t1.brass=Copper Alloys
+quests.aet.t1.gearbrass=Full-scale Gear
+quests.aet.t1.wrench=Setting Tool
+quests.aet.t1.torque=Torque Poooooooooooooweeeeeeeeer!!
+quests.aet.t1.windmill=Windmill No.1
+quests.aet.t1.shaft=Power Transmission
+quests.aet.t1.handspindle=Spinning String
+quests.aet.t1.string=Linen String
+quests.aet.t1.pattern=Clothes Blueprint
+quests.aet.t1.spinning=Auto Spinning
+quests.aet.t1.hammer=Metal Bender
+quests.aet.t1.plate=Metal Conquest
+quests.aet.t1.wirecoil=Conduction, Generates Heat.
+quests.aet.t1.oven=Generics Furnase
+quests.aet.t1.firestand=CampFire Ver.2
+quests.aet.t1.bellow=Many Pressed
+quests.aet.t1.chamber=Limit Break
+quests.aet.t1.steel=Popular Metal
+
+quests.aet.t2=HaC:T2
+quests.aet.t2.gearsteel=Unique Parts
+quests.aet.t2.conveyor=Where is the power source?
+quests.aet.t2.shaft=Better Shaft
+quests.aet.t2.nickelsilver=500 Yen coin
+quests.aet.t2.gearalloy=Nickelsilver Spindle
+quests.aet.t2.ibctank=Choise Your Favorite
+quests.aet.t2.simplereactor=Downword compatible
+quests.aet.t2.hacwatermill=Watermill No.1
+quests.aet.t2.largewindmill=Hack WindmillHut
+quests.aet.t2.stonemill=One Ore per Twe Ingot
+quests.aet.t2.conveyorfurnace=Smelting Factory
+quests.aet.t2.climatesteel=Climate Injection
+quests.aet.t2.electrum=Pokémon Gold Version/Silver Version
+quests.aet.t2.heatexchanger=Air Conditioner
+quests.aet.t2.raremetal=Rare Metal
+quests.aet.t2.highalloy=Elite Alloy
+
+quests.aet.eio=Ender IO
+quests.aet.eio.infinity=Bedrock Campfire
+quests.aet.eio.simplemachine=The Fine §o'G'§r is §oBeginning§r
+quests.aet.eio.simplealloysmelter=Metal Fusion
+quests.aet.eio.energyconduit=Universal Cable
+
+quests.aet.imm=Immersive Engineering
+quests.aet.imm.coke=Baking Coal
+quests.aet.imm.treatedwood=Coated Creosote
+quests.aet.imm.engineerworkbench=Super Workbench
+quests.aet.imm.dynamo=Dynamo Root
+quests.aet.imm.iewatermill=Watermill No.2
+quests.aet.imm.iewindmill=Windmill No.2
+quests.aet.imm.lvcapacitor=Low Battery
+quests.aet.imm.lvwire=Raven's Haven
+quests.aet.imm.parts=Mechanical Component
+quests.aet.imm.circuit=Electrical Circuit
+quests.aet.imm.engineerblock=Mechanical System
+quests.aet.imm.metalpress=Auto Bender
+
+quests.aet.extras=Machine Extras
+quests.aet.extras.machinecase=Machine Surface
+quests.aet.extras.latex=Latex Squeezing
+quests.aet.extras.autoharvest=Farming Buddy
+
+quests.aet.extras.atomicreconstructor=RE:Construct
+quests.aet.extras.crystalizedcase=Origin:Iron Casing
+quests.aet.extras.poweredfurnace=Power!HA
+quests.aet.extras.coalgenerator=Enhancement Generator
+quests.aet.extras.aacrusher=Leaving evolution behind.
+quests.aet.extras.doublecrusher=Multi Thread
+
+quests.aet.extras.resonator=Redstone Resonance
+quests.aet.extras.resonatedcase=Origin:Machine Block
+quests.aet.extras.furnacegenerator=Reinforced Generator
+quests.aet.extras.xu2machine=ExU2's Ore Processing
+quests.aet.extras.enchanter=Magic Scriber
+quests.aet.extras.gridmill=Grid Power Generation
+quests.aet.extras.wireless=Wireless Conduction
+quests.aet.extras.xu2upgrade=Upgrade
+
+quests.aet.t3=HaC:T3
+
+quests.aet.hacmagic.drop=Five-Elements
+quests.aet.hacmagic.hacspell=not reuse
+quests.aet.hacmagic.hacring=Talk to your inventory.
+
+quests.aet.botania.botaniaflower=Mana Flower
+
+quests.aet.as.aquamarine=Find Liver
+
+quests.aet.bm.will=Daemon Power
+
+quests.aet.de=Singurarity
+
 quests.aet.end=End Game
 
-tile.aet.sawmill.name=Saw Mill
+
 tile.actuallyadditions.block_misc_iron_casing.name=Crystalized Case
 machine.blank=Resonated Case
 
+tile.aet.sawmill.name=Saw Mill
 multiblocked.recipe_map.sawmill=Saw Mill
+tile.aet.chaos_reactor.name=Chaos Reactor
+multiblocked.recipe_map.chaos_reactor=Chaos Reactor
+
